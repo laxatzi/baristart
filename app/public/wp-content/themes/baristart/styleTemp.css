@@ -136,13 +136,15 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 
 /* --------------------------------------------------------------
 # Root Variables
-	- Colors
-	- Typography Variables
-	- Border Variables
-	- Spacing Variables
-	- Gradients
+  - Colors
+  - Typography Variables
+  - Border Variables
+  - Spacing Variables
+  - Gradients
 ---------------------------------------------------------------- */
+
 :root {
+  /* - Colors */
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
   --bs-purple: #6f42c1;
@@ -186,22 +188,34 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
   --bs-black-rgb: 0, 0, 0;
   --bs-body-color-rgb: 33, 37, 41;
   --bs-body-bg-rgb: 255, 255, 255;
+  --bs-highlight-bg: #fff3cd;
+
+  /* - Typography Variables */
   --bs-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto,
     "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif,
     "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas,
     "Liberation Mono", "Courier New", monospace;
+
+    	/* - Gradients */
   --bs-gradient: linear-gradient(
     180deg,
     rgba(255, 255, 255, 0.15),
     rgba(255, 255, 255, 0)
   );
+
+  /* -Typography Variables */
   --bs-body-font-family: var(--bs-font-sans-serif);
   --bs-body-font-size: 1rem;
   --bs-body-font-weight: 400;
   --bs-body-line-height: 1.5;
   --bs-body-color: #212529;
   --bs-body-bg: #fff;
+  --bs-link-color: #0d6efd;
+  --bs-link-hover-color: #0a58ca;
+  --bs-code-color: #d63384;
+
+  /* - Border Variables */
   --bs-border-width: 1px;
   --bs-border-style: solid;
   --bs-border-color: #dee2e6;
@@ -212,10 +226,6 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
   --bs-border-radius-xl: 1rem;
   --bs-border-radius-2xl: 2rem;
   --bs-border-radius-pill: 50rem;
-  --bs-link-color: #0d6efd;
-  --bs-link-hover-color: #0a58ca;
-  --bs-code-color: #d63384;
-  --bs-highlight-bg: #fff3cd;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -224,7 +234,6 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
   }
 }
 
-
 /* --------------------------------------------------------------
 # Generic
 	- Box Sizing
@@ -232,12 +241,29 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 	- Global Resets
 ---------------------------------------------------------------- */
 *,
-::after,
-::before {
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html {
   box-sizing: border-box;
 }
 
-
+/* # Base
+	- Body
+	- Headings
+	- Paragraphs
+	- Lists
+	- Blockquotes
+	- Links
+	- Code
+	- Images
+	- Tables
+	- Forms
+	- Buttons
+	- Accessibility
+	- Embedded Content */
 
 body {
   margin: 0;
