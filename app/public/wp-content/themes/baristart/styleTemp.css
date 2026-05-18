@@ -197,7 +197,7 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
   --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas,
     "Liberation Mono", "Courier New", monospace;
 
-    	/* - Gradients */
+  /* - Gradients */
   --bs-gradient: linear-gradient(
     180deg,
     rgba(255, 255, 255, 0.15),
@@ -228,18 +228,11 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
   --bs-border-radius-pill: 50rem;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  :root {
-    scroll-behavior: smooth;
-  }
-}
-
 /* --------------------------------------------------------------
 # Generic
-	- Box Sizing
-	- Reduced Motion
-	- Global Resets
 ---------------------------------------------------------------- */
+
+/* - Box Sizing */
 *,
 *::before,
 *::after {
@@ -249,6 +242,16 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 html {
   box-sizing: border-box;
 }
+
+/* - Reduced Motion */
+
+@media (prefers-reduced-motion: no-preference) {
+  :root {
+    scroll-behavior: smooth;
+  }
+}
+
+/* - Global Resets */
 
 /* # Base
 	- Body
