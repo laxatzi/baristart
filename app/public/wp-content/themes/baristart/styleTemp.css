@@ -133,6 +133,7 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 	- Hidden Elements
 	- Screen Reader Helpers
 --------------------------------------------------------------*/
+
 /* --------------------------------------------------------------
 # Root Variables
 	- Colors
@@ -141,7 +142,6 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 	- Spacing Variables
 	- Gradients
 ---------------------------------------------------------------- */
-
 :root {
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
@@ -217,16 +217,28 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
   --bs-code-color: #d63384;
   --bs-highlight-bg: #fff3cd;
 }
-*,
-::after,
-::before {
-  box-sizing: border-box;
-}
+
 @media (prefers-reduced-motion: no-preference) {
   :root {
     scroll-behavior: smooth;
   }
 }
+
+
+/* --------------------------------------------------------------
+# Generic
+	- Box Sizing
+	- Reduced Motion
+	- Global Resets
+---------------------------------------------------------------- */
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+
+
+
 body {
   margin: 0;
   font-family: var(--bs-body-font-family);
