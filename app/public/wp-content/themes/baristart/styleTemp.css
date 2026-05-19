@@ -2238,6 +2238,10 @@ progress {
     -webkit-overflow-scrolling: touch;
   }
 }
+
+/* --------------------------------------------------------------
+# Forms
+---------------------------------------------------------------- */
 .form-label {
   margin-bottom: 0.5rem;
 }
@@ -3476,6 +3480,10 @@ fieldset:disabled .btn {
   --bs-btn-font-size: 0.875rem;
   --bs-btn-border-radius: 0.25rem;
 }
+
+/* --------------------------------------------------------------
+# Animation
+---------------------------------------------------------------- */
 .fade {
   transition: opacity 0.15s linear;
 }
@@ -3510,6 +3518,10 @@ fieldset:disabled .btn {
     transition: none;
   }
 }
+
+/* --------------------------------------------------------------
+# Dropdowns
+---------------------------------------------------------------- */
 .dropdown,
 .dropdown-center,
 .dropend,
@@ -3816,6 +3828,11 @@ fieldset:disabled .btn {
   --bs-dropdown-link-disabled-color: #adb5bd;
   --bs-dropdown-header-color: #adb5bd;
 }
+
+/* --------------------------------------------------------------
+# Button Groups
+---------------------------------------------------------------- */
+
 .btn-group,
 .btn-group-vertical {
   position: relative;
@@ -3913,6 +3930,11 @@ fieldset:disabled .btn {
   border-top-left-radius: 0;
   border-top-right-radius: 0;
 }
+
+/* --------------------------------------------------------------
+# Navigation
+---------------------------------------------------------------- */
+
 .nav {
   --bs-nav-link-padding-x: 1rem;
   --bs-nav-link-padding-y: 0.5rem;
@@ -4446,6 +4468,10 @@ fieldset:disabled .btn {
   --bs-navbar-toggler-border-color: rgba(255, 255, 255, 0.1);
   --bs-navbar-toggler-icon-bg: url("data:image/svg+xml, %3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255,  255,  255,  0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
 }
+
+/* --------------------------------------------------------------
+# Cards
+---------------------------------------------------------------- */
 .card {
   --bs-card-spacer-y: 1rem;
   --bs-card-spacer-x: 1rem;
@@ -4615,6 +4641,10 @@ fieldset:disabled .btn {
     border-bottom-left-radius: 0;
   }
 }
+
+/* --------------------------------------------------------------
+# Accordion
+---------------------------------------------------------------- */
 .accordion {
   --bs-accordion-color: #212529;
   --bs-accordion-bg: #fff;
@@ -4749,6 +4779,10 @@ fieldset:disabled .btn {
 .accordion-flush .accordion-item .accordion-button.collapsed {
   border-radius: 0;
 }
+
+/* --------------------------------------------------------------
+# Breadcrumbs and Page-links
+---------------------------------------------------------------- */
 .breadcrumb {
   --bs-breadcrumb-padding-x: 0;
   --bs-breadcrumb-padding-y: 0;
@@ -4897,6 +4931,10 @@ fieldset:disabled .btn {
   position: relative;
   top: -1px;
 }
+
+/* --------------------------------------------------------------
+# Alerts
+---------------------------------------------------------------- */
 .alert {
   --bs-alert-bg: transparent;
   --bs-alert-padding-x: 1rem;
@@ -4999,6 +5037,10 @@ fieldset:disabled .btn {
     background-position-x: 1rem;
   }
 }
+
+/* --------------------------------------------------------------
+# Progress
+---------------------------------------------------------------- */
 .progress {
   --bs-progress-height: 1rem;
   --bs-progress-font-size: 0.75rem;
@@ -5052,6 +5094,10 @@ fieldset:disabled .btn {
     animation: none;
   }
 }
+
+/* --------------------------------------------------------------
+# List Group
+---------------------------------------------------------------- */
 .list-group {
   --bs-list-group-color: #212529;
   --bs-list-group-bg: #fff;
@@ -5401,6 +5447,10 @@ fieldset:disabled .btn {
   background-color: #141619;
   border-color: #141619;
 }
+
+/* --------------------------------------------------------------
+# Close Button
+---------------------------------------------------------------- */
 .btn-close {
   box-sizing: content-box;
   width: 1em;
@@ -5435,6 +5485,10 @@ fieldset:disabled .btn {
 .btn-close-white {
   filter: invert(1) grayscale(100%) brightness(200%);
 }
+
+/* --------------------------------------------------------------
+# Toasts
+---------------------------------------------------------------- */
 .toast {
   --bs-toast-zindex: 1090;
   --bs-toast-padding-x: 0.75rem;
@@ -5505,6 +5559,10 @@ fieldset:disabled .btn {
   padding: var(--bs-toast-padding-x);
   word-wrap: break-word;
 }
+
+/* --------------------------------------------------------------
+# Modals
+---------------------------------------------------------------- */
 .modal {
   --bs-modal-zindex: 1055;
   --bs-modal-width: 500px;
@@ -5791,6 +5849,10 @@ fieldset:disabled .btn {
     overflow-y: auto;
   }
 }
+
+/* --------------------------------------------------------------
+# Tooltips
+---------------------------------------------------------------- */
 .tooltip {
   --bs-tooltip-zindex: 1080;
   --bs-tooltip-max-width: 200px;
@@ -5896,6 +5958,10 @@ fieldset:disabled .btn {
   background-color: var(--bs-tooltip-bg);
   border-radius: var(--bs-tooltip-border-radius);
 }
+
+/* --------------------------------------------------------------
+# Popovers
+---------------------------------------------------------------- */
 .popover {
   --bs-popover-zindex: 1070;
   --bs-popover-max-width: 276px;
@@ -6081,6 +6147,10 @@ fieldset:disabled .btn {
   padding: var(--bs-popover-body-padding-y) var(--bs-popover-body-padding-x);
   color: var(--bs-popover-body-color);
 }
+
+/* --------------------------------------------------------------
+# Carousel
+---------------------------------------------------------------- */
 .carousel {
   position: relative;
 }
@@ -6262,6 +6332,11 @@ fieldset:disabled .btn {
 .carousel-dark .carousel-caption {
   color: #000;
 }
+
+/* --------------------------------------------------------------
+# Spinners
+---------------------------------------------------------------- */
+
 .spinner-border,
 .spinner-grow {
   display: inline-block;
@@ -6320,6 +6395,11 @@ fieldset:disabled .btn {
     --bs-spinner-animation-speed: 1.5s;
   }
 }
+
+/* --------------------------------------------------------------
+# Offcanvas
+---------------------------------------------------------------- */
+
 .offcanvas,
 .offcanvas-lg,
 .offcanvas-md,
@@ -6907,6 +6987,10 @@ fieldset:disabled .btn {
   padding: var(--bs-offcanvas-padding-y) var(--bs-offcanvas-padding-x);
   overflow-y: auto;
 }
+
+/* --------------------------------------------------------------
+# Placeholders
+---------------------------------------------------------------- */
 .placeholder {
   display: inline-block;
   min-height: 1em;
@@ -6959,11 +7043,19 @@ fieldset:disabled .btn {
     mask-position: -200% 0%;
   }
 }
+
+/* --------------------------------------------------------------
+# Clearfix
+---------------------------------------------------------------- */
 .clearfix::after {
   display: block;
   clear: both;
   content: "";
 }
+
+/* --------------------------------------------------------------
+# Backgrounds
+---------------------------------------------------------------- */
 .text-bg-primary {
   color: #fff !important;
   background-color: RGBA(13, 110, 253, var(--bs-bg-opacity, 1)) !important;
@@ -6996,6 +7088,10 @@ fieldset:disabled .btn {
   color: #fff !important;
   background-color: RGBA(33, 37, 41, var(--bs-bg-opacity, 1)) !important;
 }
+
+/* --------------------------------------------------------------
+# Links
+---------------------------------------------------------------- */
 .link-primary {
   color: #0d6efd !important;
 }
@@ -7052,6 +7148,10 @@ fieldset:disabled .btn {
 .link-dark:hover {
   color: #1a1e21 !important;
 }
+
+/* --------------------------------------------------------------
+# Ratios
+---------------------------------------------------------------- */
 .ratio {
   position: relative;
   width: 100%;
@@ -7080,6 +7180,10 @@ fieldset:disabled .btn {
 .ratio-21x9 {
   --bs-aspect-ratio: 42.8571428571%;
 }
+
+/* --------------------------------------------------------------
+# Position fixed and sticky
+---------------------------------------------------------------- */
 .fixed-top {
   position: fixed;
   top: 0;
@@ -7176,6 +7280,10 @@ fieldset:disabled .btn {
     z-index: 1020;
   }
 }
+
+/* --------------------------------------------------------------
+# Flex utilities
+---------------------------------------------------------------- */
 .hstack {
   display: flex;
   flex-direction: row;
@@ -7188,6 +7296,7 @@ fieldset:disabled .btn {
   flex-direction: column;
   align-self: stretch;
 }
+
 .visually-hidden,
 .visually-hidden-focusable:not(:focus):not(:focus-within) {
   position: absolute !important;
@@ -7200,6 +7309,7 @@ fieldset:disabled .btn {
   white-space: nowrap !important;
   border: 0 !important;
 }
+
 .stretched-link::after {
   position: absolute;
   top: 0;
@@ -7209,11 +7319,13 @@ fieldset:disabled .btn {
   z-index: 1;
   content: "";
 }
+
 .text-truncate {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
 }
+
 .vr {
   display: inline-block;
   align-self: stretch;
@@ -7222,6 +7334,15 @@ fieldset:disabled .btn {
   background-color: currentcolor;
   opacity: 0.25;
 }
+
+/* --------------------------------------------------------------
+# UTILITIES
+---------------------------------------------------------------- */
+
+/* --------------------------------------------------------------
+# Utilities for  opacity, overflow, display, shadows, position and borders.
+# Utilities alignment
+---------------------------------------------------------------- */
 .align-baseline {
   vertical-align: baseline !important;
 }
@@ -7240,6 +7361,10 @@ fieldset:disabled .btn {
 .align-text-top {
   vertical-align: text-top !important;
 }
+
+/* --------------------------------------------------------------
+# Utilities for floating
+---------------------------------------------------------------- */
 .float-start {
   float: left !important;
 }
@@ -7249,6 +7374,11 @@ fieldset:disabled .btn {
 .float-none {
   float: none !important;
 }
+
+/* --------------------------------------------------------------
+# Utilities for opacity, overflow, display, shadows, position and borders.
+---------------------------------------------------------------- */
+
 .opacity-0 {
   opacity: 0 !important;
 }
@@ -7264,6 +7394,10 @@ fieldset:disabled .btn {
 .opacity-100 {
   opacity: 1 !important;
 }
+
+/* --------------------------------------------------------------
+# Utilities for opacity, overflow, display, shadows, position and borders.
+---------------------------------------------------------------- */
 .overflow-auto {
   overflow: auto !important;
 }
@@ -7276,6 +7410,10 @@ fieldset:disabled .btn {
 .overflow-scroll {
   overflow: scroll !important;
 }
+
+/* --------------------------------------------------------------
+# Utilities for opacity, overflow, display, shadows, position and borders.
+---------------------------------------------------------------- */
 .d-inline {
   display: inline !important;
 }
@@ -7306,6 +7444,10 @@ fieldset:disabled .btn {
 .d-none {
   display: none !important;
 }
+
+/* --------------------------------------------------------------
+# Utilities for opacity, overflow, display, shadows, position and borders.
+---------------------------------------------------------------- */
 .shadow {
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
 }
@@ -7318,6 +7460,10 @@ fieldset:disabled .btn {
 .shadow-none {
   box-shadow: none !important;
 }
+
+/* --------------------------------------------------------------
+# Utilities for opacity, overflow, display, shadows, position and borders.
+---------------------------------------------------------------- */
 .position-static {
   position: static !important;
 }
@@ -7379,6 +7525,10 @@ fieldset:disabled .btn {
 .translate-middle-y {
   transform: translateY(-50%) !important;
 }
+
+/* --------------------------------------------------------------
+# Utilities for opacity, overflow, display, shadows, position and borders.
+---------------------------------------------------------------- */
 .border {
   border: var(--bs-border-width) var(--bs-border-style) var(--bs-border-color) !important;
 }
@@ -7491,6 +7641,10 @@ fieldset:disabled .btn {
 .border-opacity-100 {
   --bs-border-opacity: 1;
 }
+
+/* --------------------------------------------------------------
+# Utilities for Width, height, flex and order
+---------------------------------------------------------------- */
 .w-25 {
   width: 25% !important;
 }
@@ -7539,6 +7693,10 @@ fieldset:disabled .btn {
 .min-vh-100 {
   min-height: 100vh !important;
 }
+
+/* --------------------------------------------------------------
+# Utilities for flex
+---------------------------------------------------------------- */
 .flex-fill {
   flex: 1 1 auto !important;
 }
@@ -7644,6 +7802,10 @@ fieldset:disabled .btn {
 .align-self-stretch {
   align-self: stretch !important;
 }
+
+/* --------------------------------------------------------------
+# Utilities for order
+---------------------------------------------------------------- */
 .order-first {
   order: -1 !important;
 }
@@ -7668,6 +7830,10 @@ fieldset:disabled .btn {
 .order-last {
   order: 6 !important;
 }
+
+/* --------------------------------------------------------------
+# Utilities for margin and padding
+---------------------------------------------------------------- */
 .m-0 {
   margin: 0 !important;
 }
@@ -7967,6 +8133,11 @@ fieldset:disabled .btn {
 .ps-5 {
   padding-left: 3rem !important;
 }
+
+/* --------------------------------------------------------------
+# Utilities for gap, font, text-decoration, text-transform and text-wrap.
+---------------------------------------------------------------- */
+
 .gap-0 {
   gap: 0 !important;
 }
@@ -7985,6 +8156,10 @@ fieldset:disabled .btn {
 .gap-5 {
   gap: 3rem !important;
 }
+
+/* --------------------------------------------------------------
+# Utilities for gap, font, text-decoration, text-transform and text-wrap.
+---------------------------------------------------------------- */
 .font-monospace {
   font-family: var(--bs-font-monospace) !important;
 }
@@ -8042,6 +8217,10 @@ fieldset:disabled .btn {
 .lh-lg {
   line-height: 2 !important;
 }
+
+/* --------------------------------------------------------------
+# Utilities for gap, font, text-decoration, text-transform and text-wrap.
+---------------------------------------------------------------- */
 .text-start {
   text-align: left !important;
 }
@@ -8151,6 +8330,10 @@ fieldset:disabled .btn {
 .text-opacity-100 {
   --bs-text-opacity: 1;
 }
+
+/* --------------------------------------------------------------
+# Utilities for background-color and gradients
+---------------------------------------------------------------- */
 .bg-primary {
   --bs-bg-opacity: 1;
   background-color: rgba(
@@ -8232,6 +8415,10 @@ fieldset:disabled .btn {
 .bg-gradient {
   background-image: var(--bs-gradient) !important;
 }
+
+/* --------------------------------------------------------------
+# Utilities for user-select
+---------------------------------------------------------------- */
 .user-select-all {
   -webkit-user-select: all !important;
   -moz-user-select: all !important;
@@ -8253,6 +8440,10 @@ fieldset:disabled .btn {
 .pe-auto {
   pointer-events: auto !important;
 }
+
+/* --------------------------------------------------------------
+# Utilities for rounded borders
+---------------------------------------------------------------- */
 .rounded {
   border-radius: var(--bs-border-radius) !important;
 }
@@ -8302,7 +8493,11 @@ fieldset:disabled .btn {
 .invisible {
   visibility: hidden !important;
 }
+
 @media (min-width: 576px) {
+  /* --------------------------------------------------------------
+# Utilities for floating, display, flex, justify-content, align-items, align-content, align-self and order.
+---------------------------------------------------------------- */
   .float-sm-start {
     float: left !important;
   }
@@ -8312,6 +8507,10 @@ fieldset:disabled .btn {
   .float-sm-none {
     float: none !important;
   }
+
+  /* --------------------------------------------------------------
+# Utilities for floating, display, flex, justify-content, align-items, align-content, align-self and order.
+---------------------------------------------------------------- */
   .d-sm-inline {
     display: inline !important;
   }
@@ -8342,6 +8541,10 @@ fieldset:disabled .btn {
   .d-sm-none {
     display: none !important;
   }
+
+  /* --------------------------------------------------------------
+# Utilities for floating, display, flex, justify-content, align-items, align-content, align-self and order.
+---------------------------------------------------------------- */
   .flex-sm-fill {
     flex: 1 1 auto !important;
   }
@@ -8396,6 +8599,9 @@ fieldset:disabled .btn {
   .justify-content-sm-evenly {
     justify-content: space-evenly !important;
   }
+  /* --------------------------------------------------------------
+# Utilities for floating, display, flex, justify-content, align-items, align-content, align-self and order.
+---------------------------------------------------------------- */
   .align-items-sm-start {
     align-items: flex-start !important;
   }
@@ -8447,6 +8653,9 @@ fieldset:disabled .btn {
   .align-self-sm-stretch {
     align-self: stretch !important;
   }
+  /* --------------------------------------------------------------
+# Utilities for floating, display, flex, justify-content, align-items, align-content, align-self and order.
+---------------------------------------------------------------- */
   .order-sm-first {
     order: -1 !important;
   }
@@ -8471,6 +8680,10 @@ fieldset:disabled .btn {
   .order-sm-last {
     order: 6 !important;
   }
+
+  /* --------------------------------------------------------------
+# Utilities for  margin and padding
+---------------------------------------------------------------- */
   .m-sm-0 {
     margin: 0 !important;
   }
@@ -8799,6 +9012,9 @@ fieldset:disabled .btn {
   }
 }
 @media (min-width: 768px) {
+  /* --------------------------------------------------------------
+# Utilities for floating, display, flex, justify-content, align-items, align-content, align-self and order.
+---------------------------------------------------------------- */
   .float-md-start {
     float: left !important;
   }
@@ -8808,6 +9024,10 @@ fieldset:disabled .btn {
   .float-md-none {
     float: none !important;
   }
+
+  /* --------------------------------------------------------------
+# Utilities for floating, display, flex, justify-content, align-items, align-content, align-self and order.
+---------------------------------------------------------------- */
   .d-md-inline {
     display: inline !important;
   }
@@ -8838,6 +9058,9 @@ fieldset:disabled .btn {
   .d-md-none {
     display: none !important;
   }
+  /* --------------------------------------------------------------
+# Utilities for floating, display, flex, justify-content, align-items, align-content, align-self and order.
+---------------------------------------------------------------- */
   .flex-md-fill {
     flex: 1 1 auto !important;
   }
@@ -8943,6 +9166,9 @@ fieldset:disabled .btn {
   .align-self-md-stretch {
     align-self: stretch !important;
   }
+  /* --------------------------------------------------------------
+# Utilities for floating, display, flex, justify-content, align-items, align-content, align-self and order.
+---------------------------------------------------------------- */
   .order-md-first {
     order: -1 !important;
   }
@@ -8967,6 +9193,9 @@ fieldset:disabled .btn {
   .order-md-last {
     order: 6 !important;
   }
+  /* --------------------------------------------------------------
+# Utilities for floating, display, flex, justify-content, align-items, align-content, align-self and order.
+---------------------------------------------------------------- */
   .m-md-0 {
     margin: 0 !important;
   }
@@ -9295,6 +9524,9 @@ fieldset:disabled .btn {
   }
 }
 @media (min-width: 992px) {
+  /* --------------------------------------------------------------
+# Utilities for floating, display, flex, justify-content, align-items, align-content, align-self and order.
+---------------------------------------------------------------- */
   .float-lg-start {
     float: left !important;
   }
@@ -9304,6 +9536,9 @@ fieldset:disabled .btn {
   .float-lg-none {
     float: none !important;
   }
+  /* --------------------------------------------------------------
+# Utilities for floating, display, flex, justify-content, align-items, align-content, align-self and order.
+---------------------------------------------------------------- */
   .d-lg-inline {
     display: inline !important;
   }
@@ -9334,6 +9569,9 @@ fieldset:disabled .btn {
   .d-lg-none {
     display: none !important;
   }
+  /* --------------------------------------------------------------
+# Utilities for floating, display, flex, justify-content, align-items, align-content, align-self and order.
+---------------------------------------------------------------- */
   .flex-lg-fill {
     flex: 1 1 auto !important;
   }
@@ -9439,6 +9677,9 @@ fieldset:disabled .btn {
   .align-self-lg-stretch {
     align-self: stretch !important;
   }
+  /* --------------------------------------------------------------
+# Utilities for floating, display, flex, justify-content, align-items, align-content, align-self and order.
+---------------------------------------------------------------- */
   .order-lg-first {
     order: -1 !important;
   }
@@ -9463,6 +9704,9 @@ fieldset:disabled .btn {
   .order-lg-last {
     order: 6 !important;
   }
+  /* --------------------------------------------------------------
+# Utilities for floating, display, flex, justify-content, align-items, align-content, align-self and order.
+---------------------------------------------------------------- */
   .m-lg-0 {
     margin: 0 !important;
   }
@@ -9791,6 +10035,9 @@ fieldset:disabled .btn {
   }
 }
 @media (min-width: 1200px) {
+  /* --------------------------------------------------------------
+# Utilities for floating, display, flex, justify-content, align-items, align-content, align-self and order.
+---------------------------------------------------------------- */
   .float-xl-start {
     float: left !important;
   }
@@ -9800,6 +10047,9 @@ fieldset:disabled .btn {
   .float-xl-none {
     float: none !important;
   }
+  /* --------------------------------------------------------------
+# Utilities for floating, display, flex, justify-content, align-items, align-content, align-self and order.
+---------------------------------------------------------------- */
   .d-xl-inline {
     display: inline !important;
   }
@@ -9830,6 +10080,9 @@ fieldset:disabled .btn {
   .d-xl-none {
     display: none !important;
   }
+  /* --------------------------------------------------------------
+# Utilities for floating, display, flex, justify-content, align-items, align-content, align-self and order.
+---------------------------------------------------------------- */
   .flex-xl-fill {
     flex: 1 1 auto !important;
   }
@@ -9866,6 +10119,7 @@ fieldset:disabled .btn {
   .flex-xl-wrap-reverse {
     flex-wrap: wrap-reverse !important;
   }
+
   .justify-content-xl-start {
     justify-content: flex-start !important;
   }
@@ -9935,6 +10189,9 @@ fieldset:disabled .btn {
   .align-self-xl-stretch {
     align-self: stretch !important;
   }
+  /* --------------------------------------------------------------
+# Utilities for floating, display, flex, justify-content, align-items, align-content, align-self and order.
+---------------------------------------------------------------- */
   .order-xl-first {
     order: -1 !important;
   }
@@ -9959,6 +10216,11 @@ fieldset:disabled .btn {
   .order-xl-last {
     order: 6 !important;
   }
+
+  /* --------------------------------------------------------------
+    * Utility - Margin and Padding
+---------------------------------------------------------------- */
+
   .m-xl-0 {
     margin: 0 !important;
   }
@@ -10287,6 +10549,9 @@ fieldset:disabled .btn {
   }
 }
 @media (min-width: 1400px) {
+  /* --------------------------------------------------------------
+# Utilities for floating, display, flex, justify-content, align-items, align-content, align-self and order.
+---------------------------------------------------------------- */
   .float-xxl-start {
     float: left !important;
   }
@@ -10296,6 +10561,9 @@ fieldset:disabled .btn {
   .float-xxl-none {
     float: none !important;
   }
+  /* --------------------------------------------------------------
+# Utilities for floating, display, flex, justify-content, align-items, align-content, align-self and order.
+---------------------------------------------------------------- */
   .d-xxl-inline {
     display: inline !important;
   }
@@ -10326,6 +10594,9 @@ fieldset:disabled .btn {
   .d-xxl-none {
     display: none !important;
   }
+  /* --------------------------------------------------------------
+# Utilities for floating, display, flex, justify-content, align-items, align-content, align-self and order.
+---------------------------------------------------------------- */
   .flex-xxl-fill {
     flex: 1 1 auto !important;
   }
@@ -10431,6 +10702,9 @@ fieldset:disabled .btn {
   .align-self-xxl-stretch {
     align-self: stretch !important;
   }
+  /* --------------------------------------------------------------
+# Utilities for floating, display, flex, justify-content, align-items, align-content, align-self and order.
+---------------------------------------------------------------- */
   .order-xxl-first {
     order: -1 !important;
   }
@@ -10455,6 +10729,9 @@ fieldset:disabled .btn {
   .order-xxl-last {
     order: 6 !important;
   }
+  /* --------------------------------------------------------------
+# Utilities for floating, display, flex, justify-content, align-items, align-content, align-self and order.
+---------------------------------------------------------------- */
   .m-xxl-0 {
     margin: 0 !important;
   }
@@ -10616,6 +10893,9 @@ fieldset:disabled .btn {
   .ms-xxl-auto {
     margin-left: auto !important;
   }
+  /* --------------------------------------------------------------
+# Utilities for padding.
+---------------------------------------------------------------- */
   .p-xxl-0 {
     padding: 0 !important;
   }
@@ -10754,6 +11034,11 @@ fieldset:disabled .btn {
   .ps-xxl-5 {
     padding-left: 3rem !important;
   }
+
+  /* --------------------------------------------------------------
+# Utilities for floating, display, flex, justify-content, align-items, align-content, align-self and order.
+---------------------------------------------------------------- */
+
   .gap-xxl-0 {
     gap: 0 !important;
   }
@@ -10772,6 +11057,11 @@ fieldset:disabled .btn {
   .gap-xxl-5 {
     gap: 3rem !important;
   }
+
+  /* --------------------------------------------------------------
+# Utilities for text alignment.
+---------------------------------------------------------------- */
+
   .text-xxl-start {
     text-align: left !important;
   }
@@ -10783,6 +11073,9 @@ fieldset:disabled .btn {
   }
 }
 @media (min-width: 1200px) {
+  /* --------------------------------------------------------------
+# Utilities for font size.
+---------------------------------------------------------------- */
   .fs-1 {
     font-size: 2.5rem !important;
   }
@@ -10797,6 +11090,9 @@ fieldset:disabled .btn {
   }
 }
 @media print {
+  /* --------------------------------------------------------------
+# Utilities for printing
+---------------------------------------------------------------- */
   .d-print-inline {
     display: inline !important;
   }
