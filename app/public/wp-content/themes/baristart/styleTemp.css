@@ -2907,6 +2907,10 @@ textarea.form-control-lg {
   border-top-left-radius: 0;
   border-bottom-left-radius: 0;
 }
+
+/* --------------------------------------------------------------
+# Utilities for validation states
+---------------------------------------------------------------- */
 .valid-feedback {
   display: none;
   width: 100%;
@@ -3099,6 +3103,9 @@ textarea.form-control.is-invalid {
 .was-validated .input-group > .form-select:not(:focus):invalid {
   z-index: 4;
 }
+/* --------------------------------------------------------------
+# Buttons
+---------------------------------------------------------------- */
 .btn {
   --bs-btn-padding-x: 0.75rem;
   --bs-btn-padding-y: 0.375rem;
@@ -3885,6 +3892,7 @@ fieldset:disabled .btn {
   border-top-left-radius: 0;
   border-bottom-left-radius: 0;
 }
+
 .dropdown-toggle-split {
   padding-right: 0.5625rem;
   padding-left: 0.5625rem;
@@ -7340,8 +7348,7 @@ fieldset:disabled .btn {
 ---------------------------------------------------------------- */
 
 /* --------------------------------------------------------------
-# Utilities for  opacity, overflow, display, shadows, position and borders.
-# Utilities alignment
+# Utilities for alignment
 ---------------------------------------------------------------- */
 .align-baseline {
   vertical-align: baseline !important;
@@ -7376,7 +7383,7 @@ fieldset:disabled .btn {
 }
 
 /* --------------------------------------------------------------
-# Utilities for opacity, overflow, display, shadows, position and borders.
+# Utilities for opacity
 ---------------------------------------------------------------- */
 
 .opacity-0 {
@@ -7396,7 +7403,7 @@ fieldset:disabled .btn {
 }
 
 /* --------------------------------------------------------------
-# Utilities for opacity, overflow, display, shadows, position and borders.
+# Utilities for overflow
 ---------------------------------------------------------------- */
 .overflow-auto {
   overflow: auto !important;
@@ -7412,7 +7419,7 @@ fieldset:disabled .btn {
 }
 
 /* --------------------------------------------------------------
-# Utilities for opacity, overflow, display, shadows, position and borders.
+# Utilities for display
 ---------------------------------------------------------------- */
 .d-inline {
   display: inline !important;
@@ -7446,7 +7453,7 @@ fieldset:disabled .btn {
 }
 
 /* --------------------------------------------------------------
-# Utilities for opacity, overflow, display, shadows, position and borders.
+# Utilities for shadows
 ---------------------------------------------------------------- */
 .shadow {
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
@@ -7462,7 +7469,7 @@ fieldset:disabled .btn {
 }
 
 /* --------------------------------------------------------------
-# Utilities for opacity, overflow, display, shadows, position and borders.
+# Utilities for position
 ---------------------------------------------------------------- */
 .position-static {
   position: static !important;
@@ -7527,7 +7534,7 @@ fieldset:disabled .btn {
 }
 
 /* --------------------------------------------------------------
-# Utilities for opacity, overflow, display, shadows, position and borders.
+# Utilities for borders.
 ---------------------------------------------------------------- */
 .border {
   border: var(--bs-border-width) var(--bs-border-style) var(--bs-border-color) !important;
@@ -7643,7 +7650,7 @@ fieldset:disabled .btn {
 }
 
 /* --------------------------------------------------------------
-# Utilities for Width, height, flex and order
+# Utilities for Width, height
 ---------------------------------------------------------------- */
 .w-25 {
   width: 25% !important;
@@ -8135,7 +8142,7 @@ fieldset:disabled .btn {
 }
 
 /* --------------------------------------------------------------
-# Utilities for gap, font, text-decoration, text-transform and text-wrap.
+# Utilities for gap
 ---------------------------------------------------------------- */
 
 .gap-0 {
@@ -8158,7 +8165,7 @@ fieldset:disabled .btn {
 }
 
 /* --------------------------------------------------------------
-# Utilities for gap, font, text-decoration, text-transform and text-wrap.
+# Utilities for font
 ---------------------------------------------------------------- */
 .font-monospace {
   font-family: var(--bs-font-monospace) !important;
@@ -8219,7 +8226,7 @@ fieldset:disabled .btn {
 }
 
 /* --------------------------------------------------------------
-# Utilities for gap, font, text-decoration, text-transform and text-wrap.
+# Utilities for text alignment, text decoration, text transform and text wrap.
 ---------------------------------------------------------------- */
 .text-start {
   text-align: left !important;
@@ -8496,7 +8503,7 @@ fieldset:disabled .btn {
 
 @media (min-width: 576px) {
   /* --------------------------------------------------------------
-# Utilities for floating, display, flex, justify-content, align-items, align-content, align-self and order.
+# Utilities for floating
 ---------------------------------------------------------------- */
   .float-sm-start {
     float: left !important;
@@ -8509,7 +8516,7 @@ fieldset:disabled .btn {
   }
 
   /* --------------------------------------------------------------
-# Utilities for floating, display, flex, justify-content, align-items, align-content, align-self and order.
+# Utilities for display
 ---------------------------------------------------------------- */
   .d-sm-inline {
     display: inline !important;
@@ -8543,7 +8550,7 @@ fieldset:disabled .btn {
   }
 
   /* --------------------------------------------------------------
-# Utilities for floating, display, flex, justify-content, align-items, align-content, align-self and order.
+# Utilities for flex
 ---------------------------------------------------------------- */
   .flex-sm-fill {
     flex: 1 1 auto !important;
@@ -8600,7 +8607,7 @@ fieldset:disabled .btn {
     justify-content: space-evenly !important;
   }
   /* --------------------------------------------------------------
-# Utilities for floating, display, flex, justify-content, align-items, align-content, align-self and order.
+# Utilities for align-items, align-content, align-self and order.
 ---------------------------------------------------------------- */
   .align-items-sm-start {
     align-items: flex-start !important;
@@ -8654,7 +8661,7 @@ fieldset:disabled .btn {
     align-self: stretch !important;
   }
   /* --------------------------------------------------------------
-# Utilities for floating, display, flex, justify-content, align-items, align-content, align-self and order.
+# Utilities for  order.
 ---------------------------------------------------------------- */
   .order-sm-first {
     order: -1 !important;
@@ -9013,7 +9020,7 @@ fieldset:disabled .btn {
 }
 @media (min-width: 768px) {
   /* --------------------------------------------------------------
-# Utilities for floating, display, flex, justify-content, align-items, align-content, align-self and order.
+# Utilities for floating
 ---------------------------------------------------------------- */
   .float-md-start {
     float: left !important;
@@ -9026,7 +9033,7 @@ fieldset:disabled .btn {
   }
 
   /* --------------------------------------------------------------
-# Utilities for floating, display, flex, justify-content, align-items, align-content, align-self and order.
+# Utilities for display
 ---------------------------------------------------------------- */
   .d-md-inline {
     display: inline !important;
@@ -9059,7 +9066,7 @@ fieldset:disabled .btn {
     display: none !important;
   }
   /* --------------------------------------------------------------
-# Utilities for floating, display, flex, justify-content, align-items, align-content, align-self and order.
+# Utilities for flex
 ---------------------------------------------------------------- */
   .flex-md-fill {
     flex: 1 1 auto !important;
@@ -9167,7 +9174,7 @@ fieldset:disabled .btn {
     align-self: stretch !important;
   }
   /* --------------------------------------------------------------
-# Utilities for floating, display, flex, justify-content, align-items, align-content, align-self and order.
+# Utilities for order
 ---------------------------------------------------------------- */
   .order-md-first {
     order: -1 !important;
@@ -9194,7 +9201,7 @@ fieldset:disabled .btn {
     order: 6 !important;
   }
   /* --------------------------------------------------------------
-# Utilities for floating, display, flex, justify-content, align-items, align-content, align-self and order.
+# Utilities for margin and padding
 ---------------------------------------------------------------- */
   .m-md-0 {
     margin: 0 !important;
@@ -9525,7 +9532,7 @@ fieldset:disabled .btn {
 }
 @media (min-width: 992px) {
   /* --------------------------------------------------------------
-# Utilities for floating, display, flex, justify-content, align-items, align-content, align-self and order.
+# Utilities for floating
 ---------------------------------------------------------------- */
   .float-lg-start {
     float: left !important;
@@ -9537,7 +9544,7 @@ fieldset:disabled .btn {
     float: none !important;
   }
   /* --------------------------------------------------------------
-# Utilities for floating, display, flex, justify-content, align-items, align-content, align-self and order.
+# Utilities for display
 ---------------------------------------------------------------- */
   .d-lg-inline {
     display: inline !important;
@@ -9570,7 +9577,7 @@ fieldset:disabled .btn {
     display: none !important;
   }
   /* --------------------------------------------------------------
-# Utilities for floating, display, flex, justify-content, align-items, align-content, align-self and order.
+# Utilities for flex
 ---------------------------------------------------------------- */
   .flex-lg-fill {
     flex: 1 1 auto !important;
@@ -9678,7 +9685,7 @@ fieldset:disabled .btn {
     align-self: stretch !important;
   }
   /* --------------------------------------------------------------
-# Utilities for floating, display, flex, justify-content, align-items, align-content, align-self and order.
+# Utilities for order
 ---------------------------------------------------------------- */
   .order-lg-first {
     order: -1 !important;
@@ -9705,7 +9712,7 @@ fieldset:disabled .btn {
     order: 6 !important;
   }
   /* --------------------------------------------------------------
-# Utilities for floating, display, flex, justify-content, align-items, align-content, align-self and order.
+# Utilities for margin and padding
 ---------------------------------------------------------------- */
   .m-lg-0 {
     margin: 0 !important;
@@ -10036,7 +10043,7 @@ fieldset:disabled .btn {
 }
 @media (min-width: 1200px) {
   /* --------------------------------------------------------------
-# Utilities for floating, display, flex, justify-content, align-items, align-content, align-self and order.
+# Utilities for floating
 ---------------------------------------------------------------- */
   .float-xl-start {
     float: left !important;
@@ -10048,7 +10055,7 @@ fieldset:disabled .btn {
     float: none !important;
   }
   /* --------------------------------------------------------------
-# Utilities for floating, display, flex, justify-content, align-items, align-content, align-self and order.
+# Utilities for display
 ---------------------------------------------------------------- */
   .d-xl-inline {
     display: inline !important;
@@ -10081,7 +10088,7 @@ fieldset:disabled .btn {
     display: none !important;
   }
   /* --------------------------------------------------------------
-# Utilities for floating, display, flex, justify-content, align-items, align-content, align-self and order.
+# Utilities for flex
 ---------------------------------------------------------------- */
   .flex-xl-fill {
     flex: 1 1 auto !important;
@@ -10190,7 +10197,7 @@ fieldset:disabled .btn {
     align-self: stretch !important;
   }
   /* --------------------------------------------------------------
-# Utilities for floating, display, flex, justify-content, align-items, align-content, align-self and order.
+# Utilities for order
 ---------------------------------------------------------------- */
   .order-xl-first {
     order: -1 !important;
@@ -10218,7 +10225,7 @@ fieldset:disabled .btn {
   }
 
   /* --------------------------------------------------------------
-    * Utility - Margin and Padding
+    * Utilities - Margin and Padding
 ---------------------------------------------------------------- */
 
   .m-xl-0 {
@@ -10550,7 +10557,7 @@ fieldset:disabled .btn {
 }
 @media (min-width: 1400px) {
   /* --------------------------------------------------------------
-# Utilities for floating, display, flex, justify-content, align-items, align-content, align-self and order.
+# Utilities for floating.
 ---------------------------------------------------------------- */
   .float-xxl-start {
     float: left !important;
@@ -10703,7 +10710,7 @@ fieldset:disabled .btn {
     align-self: stretch !important;
   }
   /* --------------------------------------------------------------
-# Utilities for floating, display, flex, justify-content, align-items, align-content, align-self and order.
+# Utilities for order.
 ---------------------------------------------------------------- */
   .order-xxl-first {
     order: -1 !important;
@@ -10730,7 +10737,7 @@ fieldset:disabled .btn {
     order: 6 !important;
   }
   /* --------------------------------------------------------------
-# Utilities for floating, display, flex, justify-content, align-items, align-content, align-self and order.
+# Utilities for margin and padding.
 ---------------------------------------------------------------- */
   .m-xxl-0 {
     margin: 0 !important;
@@ -11036,7 +11043,7 @@ fieldset:disabled .btn {
   }
 
   /* --------------------------------------------------------------
-# Utilities for floating, display, flex, justify-content, align-items, align-content, align-self and order.
+# Utilities for gap.
 ---------------------------------------------------------------- */
 
   .gap-xxl-0 {
