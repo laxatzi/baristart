@@ -48,7 +48,7 @@
 			      if ( function_exists( 'the_custom_logo' ) && has_custom_logo() ) :
         the_custom_logo();
     endif;
-			if ( is_front_page() && is_paged() ) :
+			if ( is_front_page() && ! is_paged() ) :
 				?>
    <!-- the homepage carries the primary <h1>. On inner pages, the page/post title is the <h1>, so the site title should not also be an H1 (avoid multiple H1s). -->
     <!-- Checks whether the current view is the first page of the front page, regardless of whether that front page is a blog index or a static page. -->
@@ -89,6 +89,7 @@
 				aria-label="<?php esc_attr_e( 'Primary Menu', 'baristart' ); ?>"
 				aria-controls="primary-menu"
 				aria-expanded="false"
+				type="button"
 				>
 				 <span class="u-sr-only screen-reader-text">
 					 <?php esc_html_e( 'Primary Menu', 'baristart' ); ?>
