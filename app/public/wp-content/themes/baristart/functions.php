@@ -138,10 +138,37 @@ add_action( 'widgets_init', 'baristart_widgets_init' );
  * Enqueue scripts and styles.
  */
 function baristart_scripts() {
-	wp_enqueue_style( 'style', get_stylesheet_uri(), array(), _S_VERSION );
-	wp_style_add_data( 'style', 'rtl', 'replace' );
+	wp_enqueue_style(
+		'baristart-bootstrap',
+		get_template_directory_uri() . '/css/bootstrap.min.css',
+		array(),
+		'5.3.3'
+	);
 
-	wp_enqueue_script( 'baristart-navigation', get_template_directory_uri() . '/js/navigation.js', array(), _S_VERSION, true );
+	wp_enqueue_style(
+		'baristart-style',
+		get_stylesheet_uri(),
+		array( 'baristart-bootstrap' ),
+		_S_VERSION
+	);
+
+	wp_style_add_data( 'baristart-style', 'rtl', 'replace' );
+
+	wp_enqueue_script(
+		'baristart-bootstrap',
+		get_template_directory_uri() . '/js/bootstrap.bundle.min.js',
+		array(),
+		'5.3.3',
+		true
+	);
+
+	wp_enqueue_script(
+		'baristart-navigation',
+		get_template_directory_uri() . '/js/navigation.js',
+		array('baristart-bootstrap'),
+		_S_VERSION,
+		true
+	);
 
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
 		wp_enqueue_script( 'comment-reply' );
@@ -175,4 +202,5 @@ require get_template_directory() . '/inc/customizer.php';
 if ( defined( 'JETPACK__VERSION' ) ) {
 	require get_template_directory() . '/inc/jetpack.php';
 }
+
 

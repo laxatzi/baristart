@@ -23,10 +23,12 @@
     "ccircle",
     "cpath",
     "csvg",
+    "Customizer",
     "dropend",
     "dropstart",
     "dropup",
     "hstack",
+    "Jetpack",
     "vstack",
     "zindex"
   ]
