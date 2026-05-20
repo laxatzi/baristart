@@ -152,6 +152,13 @@ function baristart_scripts() {
 		_S_VERSION
 	);
 
+	wp_enqueue_style(
+    'google-fonts',
+    'https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&family=JetBrains+Mono&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap',
+      [],
+      null
+    );
+
 	wp_style_add_data( 'baristart-style', 'rtl', 'replace' );
 
 	wp_enqueue_script(
@@ -169,6 +176,8 @@ function baristart_scripts() {
 		_S_VERSION,
 		true
 	);
+
+
 
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
 		wp_enqueue_script( 'comment-reply' );
