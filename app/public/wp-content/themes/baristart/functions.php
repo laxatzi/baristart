@@ -1,5 +1,5 @@
 <?php
-/**
+/*
  * Baristart functions and definitions
  *
  * @link https://developer.wordpress.org/themes/basics/theme-functions/
@@ -12,7 +12,7 @@ if ( ! defined( '_S_VERSION' ) ) {
 	define( '_S_VERSION', '1.0.0' );
 }
 
-/**
+/*
  * Sets up theme defaults and registers support for various WordPress features.
  *
  * Note that this function is hooked into the after_setup_theme hook, which
@@ -138,8 +138,8 @@ add_action( 'widgets_init', 'baristart_widgets_init' );
  * Enqueue scripts and styles.
  */
 function baristart_scripts() {
-	wp_enqueue_style( 'baristart-style', get_stylesheet_uri(), array(), _S_VERSION );
-	wp_style_add_data( 'baristart-style', 'rtl', 'replace' );
+	wp_enqueue_style( 'style', get_stylesheet_uri(), array(), _S_VERSION );
+	wp_style_add_data( 'style', 'rtl', 'replace' );
 
 	wp_enqueue_script( 'baristart-navigation', get_template_directory_uri() . '/js/navigation.js', array(), _S_VERSION, true );
 
