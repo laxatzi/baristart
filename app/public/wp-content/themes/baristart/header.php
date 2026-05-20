@@ -19,8 +19,9 @@
 
 <body <?php body_class(); ?>>
 <?php wp_body_open();
-//a hook location to insert code at the very start of the page body.
+//* a hook location to insert code at the very start of the page body.
 ?>
+<!-- //* Back to top button. It allows users to quickly return to the top of the page, improving navigation and user experience, especially on long pages. */ -->
 <button
   id="top-button"
   class="back-to-top"
@@ -34,9 +35,12 @@
 </button>
 
 <div id="page" class="site">
-	<a class="skip-link screen-reader-text" href="#primary"><?php esc_html_e( 'Skip to content', 'baristart' ); ?></a>
+	<!--//*   Skip link for accessibility. It allows users to skip directly to the main content, which is especially helpful for screen reader users and those navigating via keyboard.	 -->
+	<a class="skip-link screen-reader-text" href="#primary">
+		<?php esc_html_e( 'Skip to content', 'baristart' ); ?>
+	</a>
 
-	<header id="masthead" class="site-header" role="banner">
+	<header id="masthead" class="site-header" >
 
 		<div class="site-branding" id="branding">
 			<!-- If a custom logo exists, it appears first; otherwise the site name acts as the brand. -->
@@ -44,9 +48,10 @@
 			      if ( function_exists( 'the_custom_logo' ) && has_custom_logo() ) :
         the_custom_logo();
     endif;
-			if ( is_front_page() && is_home() ) :
+			if ( is_front_page() && is_paged() ) :
 				?>
-				 <!-- the homepage carries the primary <h1>. On inner pages, the page/post title is the <h1>, so the site title should not also be an H1 (avoid multiple H1s). -->
+   <!-- the homepage carries the primary <h1>. On inner pages, the page/post title is the <h1>, so the site title should not also be an H1 (avoid multiple H1s). -->
+    <!-- Checks whether the current view is the first page of the front page, regardless of whether that front page is a blog index or a static page. -->
 				<h1 class="site-title">
 					<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
 				<?php
