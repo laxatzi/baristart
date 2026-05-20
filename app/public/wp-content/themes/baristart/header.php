@@ -21,7 +21,6 @@
 <?php wp_body_open();
 //* a hook location to insert code at the very start of the page body.
 ?>
-<!-- //* Back to top button. It allows users to quickly return to the top of the page, improving navigation and user experience, especially on long pages. */ -->
 <button
   id="top-button"
   class="back-to-top"
@@ -62,17 +61,9 @@
 				<?php
 			endif;
 
-			/**
-       * Displays the site description/tagline in the header.
-       *
-       * Retrieves the site description from blog info and displays it within
-       * a paragraph element with the class 'site-description'. The description
-       * is only rendered if it exists or if the site is being previewed in the
-       * WordPress Customizer.
-       *
-       * @global void
-       *
-       * @return void Outputs HTML markup directly.
+			/*
+       * // Display the site description when set or during Customizer preview.
+			 * The site description (or tagline) is a short phrase that describes the website. It is often displayed below the site title and can provide additional context about the site's purpose or content. Displaying it conditionally ensures that it only appears when it has been set by the user or when the site is being previewed in the Customizer, allowing for a cleaner design when no description is provided.
        */
 
 			$baristart_description = get_bloginfo( 'description', 'display' );
@@ -99,7 +90,10 @@
 			wp_nav_menu(
 				array(
 					'theme_location' => 'menu-1',
-					'menu_id'        => 'primary-menu',
+					'menu_id'        => 'primary-menu',// corresponding to aria-controls in the button above
+					'menu_class'     => 'primary-menu', // Add a class to the <ul> element of the menu for styling purposes
+		      'container'      => false, // Remove the default <div> container around the menu
+		      'fallback_cb'    => false, // Disable the fallback menu if no menu is assigned to this location
 				)
 			);
 			?>
