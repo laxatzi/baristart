@@ -14,28 +14,46 @@
 <head>
 	<meta charset="<?php bloginfo( 'charset' ); ?>">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-
-	<?php wp_head(); ?>
+  <?php wp_head(); ?>
 </head>
 
 <body <?php body_class(); ?>>
 <?php wp_body_open();
 //a hook location to insert code at the very start of the page body.
 ?>
+<button
+  id="top-button"
+  class="back-to-top"
+  type="button"
+  title="<?php echo esc_attr__( 'Go to top', 'baristart' ); ?>"
+  aria-label="<?php echo esc_attr__( 'Back to top', 'baristart' ); ?>"
+  aria-hidden="true"
+  hidden
+>
+  ↑
+</button>
+
 <div id="page" class="site">
 	<a class="skip-link screen-reader-text" href="#primary"><?php esc_html_e( 'Skip to content', 'baristart' ); ?></a>
 
-	<header id="masthead" class="site-header">
-		<div class="site-branding">
+	<header id="masthead" class="site-header" role="banner">
+
+		<div class="site-branding" id="branding">
+			<!-- If a custom logo exists, it appears first; otherwise the site name acts as the brand. -->
 			<?php
-			the_custom_logo();
+			      if ( function_exists( 'the_custom_logo' ) && has_custom_logo() ) :
+        the_custom_logo();
+    endif;
 			if ( is_front_page() && is_home() ) :
 				?>
-				<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
+				 <!-- the homepage carries the primary <h1>. On inner pages, the page/post title is the <h1>, so the site title should not also be an H1 (avoid multiple H1s). -->
+				<h1 class="site-title">
+					<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
 				<?php
 			else :
 				?>
-				<p class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></p>
+				<p class="site-title">
+					<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></p>
 				<?php
 			endif;
 			$baristart_description = get_bloginfo( 'description', 'display' );
