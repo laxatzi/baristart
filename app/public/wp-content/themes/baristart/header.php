@@ -61,15 +61,39 @@
 					<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></p>
 				<?php
 			endif;
+
+			/**
+       * Displays the site description/tagline in the header.
+       *
+       * Retrieves the site description from blog info and displays it within
+       * a paragraph element with the class 'site-description'. The description
+       * is only rendered if it exists or if the site is being previewed in the
+       * WordPress Customizer.
+       *
+       * @global void
+       *
+       * @return void Outputs HTML markup directly.
+       */
+
 			$baristart_description = get_bloginfo( 'description', 'display' );
 			if ( $baristart_description || is_customize_preview() ) :
 				?>
-				<p class="site-description"><?php echo $baristart_description; // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?></p>
+				<p class="site-description"><?php echo esc_html( $baristart_description );  ?></p>
 			<?php endif; ?>
 		</div><!-- .site-branding -->
 
 		<nav id="site-navigation" class="main-navigation">
-			<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'baristart' ); ?></button>
+			<button
+			  id="primary-menu-toggle"
+			  class="menu-toggle"
+				aria-label="<?php esc_attr_e( 'Primary Menu', 'baristart' ); ?>"
+				aria-controls="primary-menu"
+				aria-expanded="false"
+				>
+				 <span class="u-sr-only screen-reader-text">
+					 <?php esc_html_e( 'Primary Menu', 'baristart' ); ?>
+				 </span>
+			</button>
 			<?php
 			wp_nav_menu(
 				array(
