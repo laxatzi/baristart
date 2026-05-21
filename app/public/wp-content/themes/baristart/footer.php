@@ -11,7 +11,7 @@
 
 ?>
 
-	<footer id="colophon" class="site-footer">
+	<footer id="colophon" class="site-footer text-bg-distinct">
 		<div class="site-info">
 			<div class="container">
 				<div class="row">
@@ -72,7 +72,7 @@
               </ul>
             </div> <!-- col -->
 						<div class="col-lg-8 col-12 mt-4">
-													<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'baristart' ) ); ?>">
+								<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'baristart' ) ); ?>">
 							<?php
 							/* translators: %s: CMS name, i.e. WordPress. */
 							printf( esc_html__( 'Proudly powered by %s', 'baristart' ), 'WordPress' );
@@ -85,16 +85,11 @@
 							?>
               <p class="copyright-text mb-0">Copyright © Baristart 2026. All rights reserved.
             </div>
-
-
-
 					</div><!-- col -->
-
 				</div><!-- .row -->
-
 			</div><!-- .container -->
-
 		</div><!-- .site-info -->
+
 	</footer><!-- #colophon -->
 </div><!-- #page -->
 
