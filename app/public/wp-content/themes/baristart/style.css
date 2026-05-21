@@ -189,6 +189,7 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
   --bs-body-color-rgb: 33, 37, 41;
   --bs-body-bg-rgb: 255, 255, 255;
   --bs-highlight-bg: #fff3cd;
+  --bs-distinct-color: #bc6c25;
 
   /* - Typography Variables */
   --bs-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto,
@@ -344,14 +345,6 @@ textarea:not([rows]) {
 ---------------------------------------------------------------- */
 
 /* # Base
-
-
-
-
-
-
-
-
 	- Forms
 	- Buttons
 	- Accessibility
@@ -500,6 +493,20 @@ ol ul,
 ul ol,
 ul ul {
   margin-bottom: 0;
+}
+
+.opening-hours-list li {
+  color: rgba(255, 255, 255, 0.75);
+  font-size: var(--btn-font-size);
+  font-weight: var(--font-weight-normal);
+  margin-bottom: 10px;
+}
+
+.opening-hours-list li .underline {
+  background-color: rgba(255, 255, 255, 0.75);
+  width: 35%;
+  height: 1px;
+  margin: auto 15px 0 15px;
 }
 
 /* --------------------------------------------------------------
@@ -7109,6 +7116,11 @@ fieldset:disabled .btn {
 .text-bg-dark {
   color: #fff !important;
   background-color: RGBA(33, 37, 41, var(--bs-bg-opacity, 1)) !important;
+}
+
+.text-bg-distinct {
+  color: #fff !important;
+  background-color: var(--bs-distinct-color);
 }
 
 /* --------------------------------------------------------------

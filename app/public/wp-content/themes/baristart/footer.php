@@ -52,7 +52,7 @@
             </p>
           </div> <!-- col -->
 				  <div class="col-lg-5 col-12">
-            <em class="text-white d-block mb-4">Opening Hours.</em>
+            <em class="text-white-50 d-block mb-4">Opening Hours.</em>
 						  <ul class="opening-hours-list">
                 <li class="d-flex">
                   Monday - Friday
