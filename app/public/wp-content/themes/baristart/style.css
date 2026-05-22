@@ -968,6 +968,26 @@ progress {
   transition: all 0.3s;
 }
 
+.social-icon-item {
+  list-style: none;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.social-icon-link {
+  background: var(--primary-color);
+  border-radius: var(--border-radius-large);
+  color: var(--white-color);
+  font-size: var(--menu-font-size);
+  display: block;
+  margin: 0 5px;
+  text-align: center;
+  width: 35px;
+  height: 35px;
+  line-height: 35px;
+  transition: background 0.2s, color 0.2s;
+}
+
 /* --------------------------------------------------------------
 # Layout
 ---------------------------------------------------------------- */

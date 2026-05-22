@@ -145,6 +145,13 @@ function baristart_scripts() {
 		'5.3.3'
 	);
 
+		wp_enqueue_style(
+		'baristart-bootstrap-icons',
+		get_template_directory_uri() . '/css/bootstrap-icons.css',
+		array(),
+		'1.10.5'
+	);
+
 	wp_enqueue_style(
 		'baristart-style',
 		get_stylesheet_uri(),
