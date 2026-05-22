@@ -8,6 +8,17 @@
  */
 
 get_header();
+
+// Ensure proper HTTP status.
+// Set the 404 status and send no‑cache headers.
+
+// This ensures browsers and crawlers treat the page correctly.
+  status_header( 404 );
+  /*
+  Sends HTTP headers that tell browsers and proxies not to cache this page. Important for 404s — you don't want a "not found" response to be cached and served later when the page might exist.
+  */
+  nocache_headers();
+
 ?>
 
 	<main id="primary" class="site-main">
