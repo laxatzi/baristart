@@ -23,8 +23,8 @@ get_header();
 
 	<main id="primary" class="site-main error-404-main" aria-labelledby="error-404-title">
 
-
-		<section class="error-404 not-found">
+    <div class="container">
+		<section class="error-404 not-found row pb-5">
 			  <?php
     /**
      * A custom action hook that fires before the 404 content. Enables coder (or a plugin) to inject content before the main message without editing this file directly — for example, a banner or breadcrumb.
@@ -48,6 +48,7 @@ get_header();
 
 
 		</section><!-- .error-404 -->
+		</div><!-- .container -->
 
 	</main><!-- #main -->
 
