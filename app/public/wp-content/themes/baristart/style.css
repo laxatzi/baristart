@@ -968,6 +968,12 @@ progress {
   transition: all 0.3s;
 }
 
+.social-icon {
+  display: flex;
+  justify-content: start;
+  padding: 0px;
+}
+
 .social-icon-item {
   list-style: none;
   display: inline-block;
@@ -980,8 +986,7 @@ progress {
   color: var(--white-color);
   font-size: var(--menu-font-size);
   display: block;
-  margin: 0 5px;
-  text-align: center;
+  margin: 0 5px 0 0;
   width: 35px;
   height: 35px;
   line-height: 35px;
