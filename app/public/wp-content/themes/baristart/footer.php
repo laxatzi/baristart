@@ -22,20 +22,24 @@
               Mikras Asias 89,Pefka, Thessaloniki, Greece
             </strong>
 						<ul class="social-icon mt-4">
-              <li class="social-icon-item">
-                <a href="#" class="social-icon-link bi-facebook">
-                </a>
-              </li>
 							<li class="social-icon-item">
-                <a href="https://x.com/" target="_new" class="social-icon-link bi-twitter">
+								<a href="#" class="social-icon-link" aria-label="<?php esc_attr_e( 'Facebook', 'baristart' ); ?>">
+									<i class="bi bi-facebook" aria-hidden="true"></i>
+								</a>
+							</li>
 
-                </a>
-              </li>
 							<li class="social-icon-item">
-                <a href="#" class="social-icon-link bi-whatsapp">
-                </a>
-              </li>
-            </ul>
+								<a href="https://x.com/" target="_blank" rel="noopener noreferrer" class="social-icon-link" aria-label="<?php esc_attr_e( 'X Twitter', 'baristart' ); ?>">
+									<i class="bi bi-twitter-x" aria-hidden="true"></i>
+								</a>
+							</li>
+
+							<li class="social-icon-item">
+								<a href="#" class="social-icon-link" aria-label="<?php esc_attr_e( 'WhatsApp', 'baristart' ); ?>">
+									<i class="bi bi-whatsapp" aria-hidden="true"></i>
+								</a>
+							</li>
+						</ul>
 					</div><!-- col -->
 					<div class="col-lg-3 col-12 mt-4 mb-3 mt-lg-0 mb-lg-0">
             <em class="text-white d-block mb-4">Contact</em>
