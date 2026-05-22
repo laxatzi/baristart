@@ -1005,7 +1005,12 @@ progress {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  height: 80vh;
+  height: 100vh;
+}
+
+h1.error-404-title {
+  font-size: 256px;
+  font-weight: 700;
 }
 
 /* --------------------------------------------------------------
