@@ -20,7 +20,7 @@
         <?php esc_html_e( 'The page you are looking for might have been removed, had its name changed, or is temporarily unavailable.', 'baristart' ); ?>
       </p>
     </div>
-    <div class="search-wrapper pt-5 pb-5" style="border: 4px solid yellow;">
+    <div class="search-wrapper pt-5 pb-5">
 
 					<?php
 					get_search_form();
