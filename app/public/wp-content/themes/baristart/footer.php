@@ -23,19 +23,19 @@
             </strong>
 						<ul class="social-icon mt-4">
 							<li class="social-icon-item">
-								<a href="#" class="social-icon-link" aria-label="<?php esc_attr_e( 'Facebook', 'baristart' ); ?>">
+								<a href="#" target="_blank" rel="noopener noreferrer" class="social-icon-link" aria-label="<?php esc_attr_e( 'Facebook', 'baristart' ); ?>">
 									<i class="bi bi-facebook" aria-hidden="true"></i>
 								</a>
 							</li>
 
 							<li class="social-icon-item">
-								<a href="https://x.com/" target="_blank" rel="noopener noreferrer" class="social-icon-link" aria-label="<?php esc_attr_e( 'X Twitter', 'baristart' ); ?>">
-									<i class="bi bi-twitter-x" aria-hidden="true"></i>
+								<a href="#" target="_blank" rel="noopener noreferrer" class="social-icon-link" aria-label="<?php esc_attr_e( 'X Twitter', 'baristart' ); ?>">
+									<i class="bi bi-twitter" aria-hidden="true"></i>
 								</a>
 							</li>
 
 							<li class="social-icon-item">
-								<a href="#" class="social-icon-link" aria-label="<?php esc_attr_e( 'WhatsApp', 'baristart' ); ?>">
+								<a href="#" target="_blank" rel="noopener noreferrer" class="social-icon-link" aria-label="<?php esc_attr_e( 'WhatsApp', 'baristart' ); ?>">
 									<i class="bi bi-whatsapp" aria-hidden="true"></i>
 								</a>
 							</li>
