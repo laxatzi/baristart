@@ -1,9 +1,18 @@
 
 <header class="page-header">
-  <h1 class="page-title" id="error-404-title">
-    <?php echo sprintf( esc_html__( '%s! That page can&rsquo;t be found.', 'baristart' ), '<span class="fw-semibold">' . esc_html__( 'Oops', 'baristart' ) . '</span>' ); ?>
-  </h1>
+      <!-- Error message header -->
+       <h1 id="page-title" class="error-404-title">404</h1>
+       <h2 class="page-subtitle">
+       <?php
+       printf(
+          /* translators: %s: "Oops" or equivalent attention-getting word */
+          esc_html__( '%s, we haven\'t found what you\'re looking for.', 'baristart' ),
+          '<span class="subtitle-emphasis">' . esc_html__( 'Oops', 'baristart' ) . '</span>'
+       );
+       ?>
+       </h2>
 </header><!-- .page-header -->
+
 <div class="page-content pb-5">
       <!-- Explanation text -->
     <div class="error-explanation">
@@ -11,14 +20,18 @@
         <?php esc_html_e( 'The page you are looking for might have been removed, had its name changed, or is temporarily unavailable.', 'baristart' ); ?>
       </p>
     </div>
-      <!-- Search form -->
+    <div class="search-wrapper pt-5 pb-5" style="border: 4px solid yellow;">
 
 					<?php
 					get_search_form();
 
 					the_widget( 'WP_Widget_Recent_Posts' );
 					?>
-
+    </div>
+    <div>
+      <!-- Archives and Tag Cloud -->
+      <div class="archives-and-tags pt-5">
+        <h2 class="widget-title mb-4"><?php esc_html_e( 'Try looking in the archives.', 'baristart' ); ?></h2>
 					<?php
 					/* translators: %1$s: smiley */
 					$baristart_archive_content = '<p>' . sprintf( esc_html__( 'Try looking in the monthly archives. %1$s', 'baristart' ), convert_smilies( ':)' ) ) . '</p>';
@@ -26,6 +39,11 @@
 
 					the_widget( 'WP_Widget_Tag_Cloud' );
 					?>
+
+    </div>
+      <!-- Search form -->
+
+
 
 			</div><!-- .page-content -->
 
