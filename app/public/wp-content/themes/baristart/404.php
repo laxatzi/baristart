@@ -23,46 +23,30 @@ get_header();
 
 	<main id="primary" class="site-main error-404-main" aria-labelledby="error-404-title">
 
+
 		<section class="error-404 not-found">
-			<header class="page-header">
-				<h1 class="page-title" id="error-404-title"><?php esc_html_e( 'Oops! That page can&rsquo;t be found.', 'baristart' ); ?></h1>
-			</header><!-- .page-header -->
+			  <?php
+    /**
+     * A custom action hook that fires before the 404 content. Enables coder (or a plugin) to inject content before the main message without editing this file directly — for example, a banner or breadcrumb.
+     *
+     * @since 1.0.0
+     */
+    do_action( 'lambros_before_404_content' );
+    ?>
 
-			<div class="page-content">
-				<p><?php esc_html_e( 'It looks like nothing was found at this location. Maybe try one of the links below or a search?', 'baristart' ); ?></p>
 
-					<?php
-					get_search_form();
+        <?php get_template_part( 'template-parts/content', '404' ); ?>
 
-					the_widget( 'WP_Widget_Recent_Posts' );
-					?>
+    <?php
+    /**
+     * A custom action hook that fires after the 404 content. Enables coder (or a plugin) to inject content after the main message without editing this file directly — for example, related posts or a call-to-action.
+     *
+     * @since 1.0.0
+     */
+    do_action( 'lambros_after_404_content' );
+    ?>
 
-					<div class="widget widget_categories">
-						<h2 class="widget-title"><?php esc_html_e( 'Most Used Categories', 'baristart' ); ?></h2>
-						<ul>
-							<?php
-							wp_list_categories(
-								array(
-									'orderby'    => 'count',
-									'order'      => 'DESC',
-									'show_count' => 1,
-									'title_li'   => '',
-									'number'     => 10,
-								)
-							);
-							?>
-						</ul>
-					</div><!-- .widget -->
 
-					<?php
-					/* translators: %1$s: smiley */
-					$baristart_archive_content = '<p>' . sprintf( esc_html__( 'Try looking in the monthly archives. %1$s', 'baristart' ), convert_smilies( ':)' ) ) . '</p>';
-					the_widget( 'WP_Widget_Archives', 'dropdown=1', "after_title=</h2>$baristart_archive_content" );
-
-					the_widget( 'WP_Widget_Tag_Cloud' );
-					?>
-
-			</div><!-- .page-content -->
 		</section><!-- .error-404 -->
 
 	</main><!-- #main -->
