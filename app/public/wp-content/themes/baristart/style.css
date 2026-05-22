@@ -962,6 +962,12 @@ progress {
   padding-bottom: 100px;
 }
 
+.site-footer-link {
+  color: rgba(255, 255, 255, 0.75);
+  font-size: var(--btn-font-size);
+  transition: all 0.3s;
+}
+
 /* --------------------------------------------------------------
 # Layout
 ---------------------------------------------------------------- */
