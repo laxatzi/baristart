@@ -188,7 +188,7 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
   --bs-black-rgb: 0, 0, 0;
   --bs-body-color-rgb: 33, 37, 41;
   --bs-body-bg-rgb: 255, 255, 255;
-  --bs-highlight-bg: #fff3cd;
+  --bs-highlight-bg-light: #e1ce93;
   --bs-distinct-color: #bc6c25;
   --bs-basic-color: #533318;
   --bs-basic-color-light: #b78752;
@@ -1006,11 +1006,18 @@ progress {
   background-position: center;
   background-repeat: no-repeat;
   height: 100vh;
+
+}
+
+.error-404-main p,
+.error-404-main h2 {
+  color: var(--bs-highlight-bg-light);
 }
 
 h1.error-404-title {
   font-size: 256px;
   font-weight: 700;
+  color: var(--bs-highlight-bg-light);
 }
 
 /* --------------------------------------------------------------
