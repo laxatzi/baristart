@@ -11,7 +11,7 @@
 
 ?>
 
-	<footer id="colophon" class="site-footer text-bg-distinct">
+	<footer id="colophon" class="site-footer text-bg-basic">
 		<div class="site-info">
 			<div class="container">
 				<div class="row">
