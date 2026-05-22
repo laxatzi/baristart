@@ -27,7 +27,7 @@
                 </a>
               </li>
 							<li class="social-icon-item">
-                <a href="https://x.com/minthu" target="_new" class="social-icon-link bi-twitter">
+                <a href="https://x.com/" target="_new" class="social-icon-link bi-twitter">
 
                 </a>
               </li>

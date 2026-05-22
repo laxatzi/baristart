@@ -176,14 +176,12 @@ function baristart_scripts() {
 		true
 	);
 
-	wp_enqueue_script(
-		'baristart-navigation',
-		get_template_directory_uri() . '/js/navigation.js',
-		array('baristart-bootstrap'),
-		_S_VERSION,
-		true
+	wp_enqueue_style(
+		'baristart-style',
+		get_stylesheet_uri(),
+		array( 'baristart-bootstrap', 'baristart-bootstrap-icons' ),
+		_S_VERSION
 	);
-
 
 
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
