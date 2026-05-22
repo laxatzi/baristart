@@ -190,8 +190,8 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
   --bs-body-bg-rgb: 255, 255, 255;
   --bs-highlight-bg: #fff3cd;
   --bs-distinct-color: #bc6c25;
-  --bs-basic-color: #4C3720;
-  --bs-basic-color-light: #B78752;
+  --bs-basic-color: #533318;
+  --bs-basic-color-light: #b78752;
 
   /* - Typography Variables */
   --bs-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto,
@@ -993,6 +993,19 @@ progress {
   height: 35px;
   line-height: 35px;
   transition: background 0.2s, color 0.2s;
+}
+
+/* --------------------------------------------------------------
+# 404-error
+---------------------------------------------------------------- */
+
+.error-404-main {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),
+    url("assets/coffeeSpilled.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 80vh;
 }
 
 /* --------------------------------------------------------------
@@ -7154,6 +7167,11 @@ fieldset:disabled .btn {
 .text-bg-distinct {
   color: #fff !important;
   background-color: var(--bs-distinct-color);
+}
+
+.text-bg-basic {
+  color: #000 !important;
+  background-color: var(--bs-basic-color);
 }
 
 /* --------------------------------------------------------------
