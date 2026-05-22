@@ -60,7 +60,7 @@
 									<strong>9:00 - 18:00</strong>
                 </li>
 								<li class="d-flex">
-                  Saturday
+                  Saturdays
                   <span class="underline"></span>
 									<strong>11:00 - 16:30</strong>
                 </li>
