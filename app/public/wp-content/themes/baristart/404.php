@@ -31,7 +31,7 @@ get_header();
      *
      * @since 1.0.0
      */
-    do_action( 'lambros_before_404_content' );
+    do_action( 'baristart_before_404_content' );
     ?>
 
 
@@ -43,7 +43,7 @@ get_header();
      *
      * @since 1.0.0
      */
-    do_action( 'lambros_after_404_content' );
+    do_action( 'baristart_after_404_content' );
     ?>
 
 
