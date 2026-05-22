@@ -1,3 +1,4 @@
+
 <header class="page-header">
   <h1 class="page-title" id="error-404-title">
     <?php echo sprintf( esc_html__( '%s! That page can&rsquo;t be found.', 'baristart' ), '<span class="fw-semibold">' . esc_html__( 'Oops', 'baristart' ) . '</span>' ); ?>
@@ -27,3 +28,4 @@
 					?>
 
 			</div><!-- .page-content -->
+
