@@ -76,19 +76,12 @@
                 </li>
               </ul>
             </div> <!-- col -->
-						<div class="col-lg-8 col-12 mt-4">
-								<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'baristart' ) ); ?>">
-							<?php
-							/* translators: %s: CMS name, i.e. WordPress. */
-							printf( esc_html__( 'Proudly powered by %s', 'baristart' ), 'WordPress' );
-							?>
-						</a>
-						<span class="sep"> | </span>
+						<div class="col-lg-8 col-12 mt-4 copyright-text">
 							<?php
 							/* translators: 1: Theme name, 2: Theme author. */
 							printf( esc_html__( 'Developed by: %1$s.', 'baristart' ), '<a href="https://lambroshatzinikolaou.com">Lambros Hatzinikolaou</a>' );
 							?>
-              <p class="copyright-text mb-0">Copyright © Baristart 2026. All rights reserved.
+              <p class="copyright-text mb-0">Copyright © Baristart 2026. All rights reserved.</p>
             </div>
 					</div><!-- col -->
 				</div><!-- .row -->
