@@ -22,7 +22,7 @@
     </div>
     <div class="pt-5 pb-5">
       <button class="btn btn-primary" aria-label="<?php esc_attr_e( 'Go to homepage', 'baristart' ); ?>">
-        <a href="<?php echo esc_url( home_url( '/' ) ); ?>" class="search-link">
+        <a href="<?php echo esc_url( home_url( '/' ) ); ?>" >
           <?php esc_html_e( 'Go to homepage', 'baristart' ); ?>
         </a>
       </button>
