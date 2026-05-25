@@ -21,17 +21,20 @@
       </p>
     </div>
     <div class="search-wrapper pt-5 pb-5">
-
-					<?php
-					get_search_form();
-
-					the_widget( 'WP_Widget_Recent_Posts' );
-					?>
+      <button>
+        <a href="<?php echo esc_url( home_url( '/' ) ); ?>" class="search-link">
+          <?php esc_html_e( 'Go to homepage', 'baristart' ); ?>
+        </a>
+      </button>
     </div>
     <div>
+
+    </div>
+    	<?php the_widget( 'WP_Widget_Recent_Posts' ); ?>
+    <div>
       <!-- Archives and Tag Cloud -->
-      <div class="archives-and-tags pt-5">
-        <h2 class="widget-title mb-4"><?php esc_html_e( 'Try looking in the archives.', 'baristart' ); ?></h2>
+      <div class="archives-and-tags">
+        <!-- <h2 class="widget-title mb-4"><?php esc_html_e( 'Try looking in the archives.', 'baristart' ); ?></h2> -->
 					<?php
 					/* translators: %1$s: smiley */
 					$baristart_archive_content = '<p>' . sprintf( esc_html__( 'Try looking in the monthly archives. %1$s', 'baristart' ), convert_smilies( ':)' ) ) . '</p>';
