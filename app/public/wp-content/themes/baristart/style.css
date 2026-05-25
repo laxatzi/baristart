@@ -192,6 +192,7 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
   --bs-distinct-color: #bc6c25;
   --bs-basic-color: #533318;
   --bs-basic-color-light: #b78752;
+  --bs-complementary: #2a67d5;
 
   /* - Typography Variables */
   --bs-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto,
@@ -1042,6 +1043,24 @@ h1.error-404-title {
   font-size: 256px;
   font-weight: 700;
   color: var(--bs-highlight-bg-light);
+}
+
+.btn .search-link {
+  color: var(--bs-basic-color);
+  font-weight: var(--font-weight-bold);
+}
+
+.widget_recent_entries ul li {
+  list-style-type: none;
+}
+
+.widget_recent_entries a {
+  color: var(--bs-highlight-bg-light);
+}
+
+.widget_recent_entries a:hover {
+  background-color: var(--bs-white);
+  color: var(--bs-basic-color);
 }
 
 /* --------------------------------------------------------------
@@ -3243,7 +3262,7 @@ textarea.form-control.is-invalid {
   user-select: none;
   border: var(--bs-btn-border-width) solid var(--bs-btn-border-color);
   border-radius: var(--bs-btn-border-radius);
-  background-color: var(--bs-btn-bg);
+  background-color: var(--bs-basic-color-light);
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
     border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
@@ -4040,6 +4059,10 @@ fieldset:disabled .btn {
 .btn-group-vertical > .btn ~ .btn {
   border-top-left-radius: 0;
   border-top-right-radius: 0;
+}
+
+.btn a {
+  color: var(--bs-basic-color-light);
 }
 
 /* --------------------------------------------------------------

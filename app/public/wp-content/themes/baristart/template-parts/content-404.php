@@ -20,8 +20,8 @@
         <?php esc_html_e( 'The page you are looking for might have been removed, had its name changed, or is temporarily unavailable.', 'baristart' ); ?>
       </p>
     </div>
-    <div class="search-wrapper pt-5 pb-5">
-      <button>
+    <div class="pt-5 pb-5">
+      <button class="btn btn-primary" aria-label="<?php esc_attr_e( 'Go to homepage', 'baristart' ); ?>">
         <a href="<?php echo esc_url( home_url( '/' ) ); ?>" class="search-link">
           <?php esc_html_e( 'Go to homepage', 'baristart' ); ?>
         </a>
@@ -33,7 +33,7 @@
     	<?php the_widget( 'WP_Widget_Recent_Posts' ); ?>
     <div>
       <!-- Archives and Tag Cloud -->
-      <div class="archives-and-tags">
+      <div class="archives-and-tags mt-5">
         <!-- <h2 class="widget-title mb-4"><?php esc_html_e( 'Try looking in the archives.', 'baristart' ); ?></h2> -->
 					<?php
 					/* translators: %1$s: smiley */
