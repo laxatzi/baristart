@@ -959,7 +959,7 @@ progress {
 ---------------------------------------------------------------- */
 
 .site-footer {
-  background-color: var(--primary-color);
+  background-color: var(--bs-basic-color);
   padding-top: 100px;
   padding-bottom: 100px;
 }
@@ -978,21 +978,31 @@ progress {
 
 .social-icon-item {
   list-style: none;
-  display: inline-block;
-  vertical-align: top;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid var(--bs-white);
+  border-radius: 100%;
+  margin-right: 5px;
 }
 
-.social-icon-link {
-  background: var(--primary-color);
-  border-radius: var(--border-radius-large);
-  color: var(--white-color);
-  font-size: var(--menu-font-size);
-  display: block;
-  margin: 0 5px 0 0;
+a.social-icon-link {
+  border-radius: 100%;
+  color: var(--bs-white);
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
   width: 35px;
   height: 35px;
   line-height: 35px;
   transition: background 0.2s, color 0.2s;
+}
+
+a.social-icon-link:hover {
+  background-color: var(--bs-white);
+  color: var(--bs-basic-color);
 }
 
 /* --------------------------------------------------------------
@@ -1006,7 +1016,6 @@ progress {
   background-position: center;
   background-repeat: no-repeat;
   height: 100vh;
-
 }
 
 .error-404-main p,
