@@ -955,7 +955,7 @@ progress {
 ---------------------------------------------------------------- */
 
 /* --------------------------------------------------------------
-# Footer
+#Footer
 ---------------------------------------------------------------- */
 
 .site-footer {
@@ -968,6 +968,11 @@ progress {
   color: rgba(255, 255, 255, 0.75);
   font-size: var(--btn-font-size);
   transition: all 0.3s;
+}
+
+.site-footer-link:hover {
+  color: var(--bs-basic-color);
+  background-color: var(--bs-white);
 }
 
 .social-icon {
