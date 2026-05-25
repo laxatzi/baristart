@@ -1010,6 +1010,16 @@ a.social-icon-link:hover {
   color: var(--bs-basic-color);
 }
 
+.copyright-text {
+  color: rgba(255, 255, 255, 0.75);
+  font-size: var(--btn-font-size);
+}
+
+.copyright-text a:hover {
+  background-color: var(--bs-white);
+  color: var(--bs-basic-color);
+}
+
 /* --------------------------------------------------------------
 # 404-error
 ---------------------------------------------------------------- */
@@ -8406,7 +8416,7 @@ fieldset:disabled .btn {
 }
 .text-white {
   --bs-text-opacity: 1;
-  color: rgba(var(--bs-white-rgb), var(--bs-text-opacity)) !important;
+  color: rgb(255, 255, 255) !important;
 }
 .text-body {
   --bs-text-opacity: 1;
