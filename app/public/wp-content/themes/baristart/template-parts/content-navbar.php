@@ -60,20 +60,3 @@ $links = [
         </div>
       </nav>
 
-<nav id="js--menu" class="site-header__nav site-nav__primary" aria-label="<?php esc_attr_e( 'Primary', 'baristart' ); ?>">
-  <ul class="nav nav__list site-nav" >
-    <?php foreach ( $links as $item ) : ?>
-      <!-- If you ever want to style the active item differently (background, underline, etc.), it’s useful to have a CSS class on that item. Here, we add the class current-menu-item to the <li> of the active page. -->
-      <li class="nav__list-item <?php echo $item['current'] ? 'current-menu-item' : ''; ?>">
-
-        <a
-          href="<?php echo esc_url( $item['url'] ); ?>"
-          class="nav__list-link <?php echo $item['current'] ? 'indicator' : ''; ?>"
-          <?php echo $item['current'] ? 'aria-current="page"' : ''; ?>
-        >
-          <?php echo esc_html( $item['label'] ); ?>
-        </a>
-      </li>
-    <?php endforeach; ?>
-  </ul>
-</nav>
