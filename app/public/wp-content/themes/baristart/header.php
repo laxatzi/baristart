@@ -93,6 +93,10 @@
 					 <?php esc_html_e( 'Primary Menu', 'baristart' ); ?>
 				 </span>
 			</button>
+			    <?php
+
+      get_template_part( 'template-parts/content', 'navbar' );
+    ?>
 			<?php
 			wp_nav_menu(
 				array(
