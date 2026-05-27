@@ -98,15 +98,15 @@
       get_template_part( 'template-parts/content', 'navbar' );
     ?>
 			<?php
-			wp_nav_menu(
-				array(
-					'theme_location' => 'menu-1',
-					'menu_id'        => 'primary-menu',// corresponding to aria-controls in the button above
-					'menu_class'     => 'primary-menu', // Add a class to the <ul> element of the menu for styling purposes
-		      'container'      => false, // Remove the default <div> container around the menu
-		      'fallback_cb'    => false, // Disable the fallback menu if no menu is assigned to this location
-				)
-			);
+			// wp_nav_menu(
+			// 	array(
+			// 		'theme_location' => 'menu-1',
+			// 		'menu_id'        => 'primary-menu',// corresponding to aria-controls in the button above
+			// 		'menu_class'     => 'primary-menu', // Add a class to the <ul> element of the menu for styling purposes
+		  //     'container'      => false, // Remove the default <div> container around the menu
+		  //     'fallback_cb'    => false, // Disable the fallback menu if no menu is assigned to this location
+			// 	)
+			// );
 			?>
 		</nav><!-- #site-navigation -->
 	</header><!-- #masthead -->
