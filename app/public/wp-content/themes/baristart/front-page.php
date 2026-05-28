@@ -16,6 +16,8 @@
 
           ?>
           <?php
+           ?>
+           <?php
               /**
               * A custom action hook that fires after the hero section on the front page. Enables coder (or a plugin) to inject content after the hero without editing this file directly — for example, featured posts or a call-to-action.
               *
@@ -23,6 +25,7 @@
               */
               do_action( 'baristart_after_hero' );
           ?>
+
     </main>
       <?php
   get_footer();
