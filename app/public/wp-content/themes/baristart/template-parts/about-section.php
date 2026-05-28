@@ -4,7 +4,7 @@
   <div class="row align-items-center">
     <div class="col-lg-6 col-12" >
       <div class="ratio ratio1x1" style="height: 50vh;">
-        <video class="custom-video" autoplay loop muted poster playsinline style="height: 100%;">
+        <video class="custom-video" autoplay loop muted playsinline style="height: 100%;">
          <source src="<?php echo esc_url( get_template_directory_uri() . '/assets/video/pexels-mike-jones.mp4' ); ?>" type="video/mp4">
           <?php esc_html_e( 'Your browser does not support the video tag.', 'baristart' ); ?>
         </video>
