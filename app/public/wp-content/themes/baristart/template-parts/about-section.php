@@ -10,11 +10,11 @@
         </video>
         <div class="about-video-info d-flex flex-column">
           <h3 class="text-white mb-3 mt-auto">Our Story</h3>
-          <h4>Best Cafe in Town</h4>
+          <h4 class="text-white">Best Cafe in Town</h4>
         </div>
       </div>
     </div>
-    <div class="col-lg-t col-12 mt-4 mt-lg-0">
+    <div class="col-lg-5 col-12 mt-4 mt-lg-0">
       <em class="text-white">Baristart</em>
       <h2 class="mb-3 text-white">Welcome to Baristart Cafe</h2>
       <p class="mb-4 text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor. </p>
