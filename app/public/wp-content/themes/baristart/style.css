@@ -974,7 +974,7 @@ progress {
 #Front Page
 ---------------------------------------------------------------- */
 .hero-section {
-  background-color: var(--dark-color);
+  background-color: black;
   position: relative;
   overflow: hidden;
   min-height: 620px;
@@ -984,6 +984,19 @@ progress {
   .hero-section {
     height: 100vh;
   }
+}
+
+.hero-section .container {
+  position: relative;
+  z-index: 9;
+}
+
+.small-text {
+  color: var(--bs-basic-color-light);
+}
+
+.hero-section h1 {
+  color: white;
 }
 /* --------------------------------------------------------------
 #Footer
@@ -3646,6 +3659,17 @@ fieldset:disabled .btn {
   --bs-btn-border-radius: 0.25rem;
 }
 
+.custom-btn {
+  background: var(--bs-basic-color-light);
+  border: 2px solid transparent;
+  border-radius: var(--border-radius-large);
+  color: var(--white-color);
+  font-size: var(--btn-font-size);
+  font-weight: var(--font-weight-bold);
+  line-height: normal;
+  transition: all 0.3s;
+  padding: 12px 28px;
+}
 /* --------------------------------------------------------------
 # Animation
 ---------------------------------------------------------------- */
