@@ -973,7 +973,18 @@ progress {
 /* --------------------------------------------------------------
 #Front Page
 ---------------------------------------------------------------- */
-
+.hero-section {
+  background-color: var(--dark-color);
+  position: relative;
+  overflow: hidden;
+  min-height: 620px;
+  text-align: center;
+}
+@media screen and (min-width: 991px) {
+  .hero-section {
+    height: 100vh;
+  }
+}
 /* --------------------------------------------------------------
 #Footer
 ---------------------------------------------------------------- */
