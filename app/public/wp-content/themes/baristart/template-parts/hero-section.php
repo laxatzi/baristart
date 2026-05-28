@@ -1,0 +1,17 @@
+<?php
+ ?>
+<section id="section_1" class="hero-section">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-lg-6 col-12 mx-auto">
+        <em class="small-text">
+          Welcome to our Cafe
+        </em>
+        <h1>Baristart Cafe</h1>
+        <p class="text-white mb-4 pb-lg-2">Best coffee in town</p>
+        <a href="" class="btn custom-btn">Our Story</a>
+        <a href="" class="btn custom-btn">Check Menu</a>
+      </div>
+    </div>
+  </div>
+</section>
