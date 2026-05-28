@@ -1023,6 +1023,13 @@ progress {
   padding: 40px;
 }
 
+.custom-video {
+  border-radius: var(--bs-border-radius-3xl);
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
 .about-video-info h4 {
   color: var(--bg-light);
 }
