@@ -15,6 +15,14 @@
             get_template_part( 'template-parts/hero-section' );
 
           ?>
+          <?php
+              /**
+              * A custom action hook that fires after the hero section on the front page. Enables coder (or a plugin) to inject content after the hero without editing this file directly — for example, featured posts or a call-to-action.
+              *
+              * @since 1.0.0
+              */
+              do_action( 'baristart_after_hero' );
+          ?>
     </main>
       <?php
   get_footer();
