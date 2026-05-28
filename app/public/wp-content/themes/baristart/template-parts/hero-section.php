@@ -1,4 +1,6 @@
 <section id="section_1" class="hero-section d-flex align-items-center justify-content-center">
+  <div class="section-overlay"></div>
+
   <div class="container">
     <div class="row align-items-center">
       <div class="col-lg-6 col-12 mx-auto">
