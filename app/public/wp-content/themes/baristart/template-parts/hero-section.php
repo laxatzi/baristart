@@ -1,5 +1,3 @@
-<?php
- ?>
 <section id="section_1" class="hero-section d-flex align-items-center justify-content-center">
   <div class="container">
     <div class="row align-items-center">
