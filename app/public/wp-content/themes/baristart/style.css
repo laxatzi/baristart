@@ -1087,6 +1087,17 @@ progress {
   bottom: 0;
 }
 
+.badge::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: -5px;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-right: 10px solid var(--bs-basic-color);
+}
+
 .barista-image-wrapper {
   width: 100%;
 }
