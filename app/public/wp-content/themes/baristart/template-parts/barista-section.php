@@ -5,10 +5,18 @@
         <em class="small-text text-white">Our Coffee Experts</em>
         <h2 class="text-white">Meet Our Baristas</h2>
       </div>
-      <div class="col-lg-3 col-md-6"></div>
-      <div class="col-lg-3 col-md-6"></div>
-      <div class="col-lg-3 col-md-6"></div>
-      <div class="col-lg-3 col-md-6"></div>
+      <div class="col-lg-3 col-md-6 col-12 mb-4 barista-wrapper">
+        Alex
+      </div>
+      <div class="col-lg-3 col-md-6 col-12 mb-4 barista-wrapper">
+        Jamie
+      </div>
+      <div class="col-lg-3 col-md-6 col-12 mb-4 barista-wrapper">
+        Taylor
+      </div>
+      <div class="col-lg-3 col-md-6 col-12 mb-4 barista-wrapper">
+        Morgan
+      </div>
 
     </div>
   </div>
