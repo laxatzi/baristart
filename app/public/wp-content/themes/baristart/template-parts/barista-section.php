@@ -10,7 +10,6 @@
           <div class="flex mt-auto mb-3">
             <h4 class="text-white mb-0">Alex</h4>
                         <p class="badge ms-4">
-              ::before
               <em>Barista</em>
             </p>
             <p class="text-white mb-0">Barista</p>
@@ -22,7 +21,6 @@
           <div class="flex mt-auto mb-3">
             <h4 class="text-white mb-0">Jamie</h4>
                         <p class="badge ms-4">
-              ::before
               <em>Senior</em>
             </p>
             <p class="text-white mb-0">
@@ -36,7 +34,6 @@
           <div class="flex mt-auto mb-3">
             <h4 class="text-white mb-0">Taylor</h4>
             <p class="badge ms-4">
-              ::before
               <em>Manager</em>
             </p>
             <p class="text-white mb-0">
@@ -50,7 +47,6 @@
           <div class="flex mt-auto mb-3">
             <h4 class="text-white mb-0">Morgan</h4>
             <p class="badge ms-4">
-              ::before
               <em>Boss</em>
             </p>
             <p class="text-white mb-0">

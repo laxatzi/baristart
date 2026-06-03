@@ -1052,7 +1052,6 @@ progress {
 .barista-wrapper {
   background-color: var(--bs-basic-color-light);
   border-radius: var(--bs-border-radius-xl);
-  border: 2px solid yellow;
   position: relative;
   overflow: hidden;
   max-height: 450px;
@@ -1072,6 +1071,14 @@ progress {
   bottom: 0;
   left: 0;
   padding: 30px;
+}
+
+.badge {
+  background-color: var(--bs-basic-color);
+  font-size: 12px;
+  position: relative;
+  bottom: 4px;
+  padding-bottom: 6px;
 }
 
 /* --------------------------------------------------------------
