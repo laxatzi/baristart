@@ -45,13 +45,16 @@
       <div class="col-lg-3 col-md-6 col-12 mb-4 barista-wrapper">
         <div class="barista-info d-flex flex-column">
           <div class="flex mt-auto mb-3">
-            <h4 class="text-white mb-0">Morgan</h4>
+            <h4 class="text-white mb-0">Marian</h4>
             <p class="badge ms-4">
               <em>Boss</em>
             </p>
             <p class="text-white mb-0">
-              Owner & Head Barista
+              Head Barista
             </p>
+          </div>
+          <div class="barista-image-wrapper">
+            <img src="assets/team/cute-korean-barista.jpg" alt="cute korean barista girl pouring coffee, preparing filter, batch brew, pour, working in cafe" class="img-fluid barista-image">
           </div>
         </div>
       </div>
