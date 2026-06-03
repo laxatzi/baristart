@@ -6,16 +6,37 @@
         <h2 class="text-white">Meet Our Baristas</h2>
       </div>
       <div class="col-lg-3 col-md-6 col-12 mb-4 barista-wrapper">
-        Alex
+        <div class="barista-info d-flex flex-column">
+          <div class="flex mt-auto mb-3">
+            <h4 class="text-white mb-0">Alex</h4>
+          </div>
+        </div>
       </div>
       <div class="col-lg-3 col-md-6 col-12 mb-4 barista-wrapper">
-        Jamie
+        <div class="barista-info d-flex flex-column">
+          <div class="flex mt-auto mb-3">
+            <h4 class="text-white mb-0">Jamie</h4>
+          </div>
+        </div>
       </div>
       <div class="col-lg-3 col-md-6 col-12 mb-4 barista-wrapper">
-        Taylor
+        <div class="barista-info d-flex flex-column">
+          <div class="flex mt-auto mb-3">
+            <h4 class="text-white mb-0">Taylor</h4>
+          </div>
+        </div>
       </div>
       <div class="col-lg-3 col-md-6 col-12 mb-4 barista-wrapper">
-        Morgan
+        <div class="barista-info d-flex flex-column">
+          <div class="flex mt-auto mb-3">
+            <h4 class="text-white mb-0">Morgan</h4>
+            <p class="badge ms-4">
+              ::before
+              <em>Boss</em>
+            </p>
+            <p class="text-white mb-0">Head Barista</p>
+          </div>
+        </div>
       </div>
 
     </div>
