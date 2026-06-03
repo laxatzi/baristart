@@ -1110,6 +1110,18 @@ progress {
   transition: all 0.3s;
 }
 
+/* Vertical Zoom-n-pan Container */
+.barista-image img {
+  transition: transform 0.5s ease-in-out;
+  transform: scale(1.4);
+  transform-origin: 0 0;
+}
+
+/* The Transformation */
+.barista-image:hover img {
+  transform: scale(1.25) translateY(-30%);
+}
+
 /* --------------------------------------------------------------
 #Footer
 ---------------------------------------------------------------- */
