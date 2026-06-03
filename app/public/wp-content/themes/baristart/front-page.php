@@ -14,6 +14,7 @@
           <?php
             get_template_part( 'template-parts/hero-section' );
             get_template_part( 'template-parts/about-section' );
+            get_template_part('template-parts/barista-section');
 
           ?>
           <?php
