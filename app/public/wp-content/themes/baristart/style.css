@@ -1071,6 +1071,7 @@ progress {
   bottom: 0;
   left: 0;
   padding: 30px;
+  pointer-events: none;
 }
 
 .badge {
@@ -1100,6 +1101,8 @@ progress {
 
 .barista-image-wrapper {
   width: 100%;
+  height: 450px;
+  overflow: hidden; /* ← essential, clips the zoomed image */
 }
 
 .barista-image {
@@ -1107,19 +1110,15 @@ progress {
   object-fit: cover;
   width: 100%;
   height: 100%;
-  transition: all 0.3s;
+  transform-origin: 50% 65%;
+  transition: transform 5s, filter 3s ease-in-out;
+  filter: brightness(120%);
 }
 
 /* Vertical Zoom-n-pan Container */
-.barista-image img {
-  transition: transform 0.5s ease-in-out;
-  transform: scale(1.4);
-  transform-origin: 0 0;
-}
-
-/* The Transformation */
-.barista-image:hover img {
-  transform: scale(1.25) translateY(-30%);
+.barista-image-wrapper:hover .barista-image {
+  filter: brightness(100%);
+  transform: scale(1.25);
 }
 
 /* --------------------------------------------------------------
