@@ -1017,21 +1017,26 @@ progress {
     rgba(0, 0, 0, 0.35),
     rgba(188, 108, 37, 1)
   );
-  border-radius: var(--bs-border-radius-3xl);
+  border-radius: var(--bs-border-radius-xl);
   bottom: 0;
-  height: auto;
-  padding: 40px;
+  width: 400px;
+  height: 400px;
+  padding: 20px;
 }
 
 .custom-video {
-  border-radius: var(--bs-border-radius-3xl);
-  width: 100%;
-  height: 100%;
+  border-radius: var(--bs-border-radius-xl);
+  width: 400px;
+  height: 400px;
   object-fit: cover;
 }
 
 .about-video-info h4 {
   color: var(--bg-light);
+}
+
+.custom-video {
+  border: 4px solid var(--bs-distinct-color);
 }
 /* --------------------------------------------------------------
 #Footer
