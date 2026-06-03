@@ -9,6 +9,11 @@
         <div class="barista-info d-flex flex-column">
           <div class="flex mt-auto mb-3">
             <h4 class="text-white mb-0">Alex</h4>
+                        <p class="badge ms-4">
+              ::before
+              <em>Barista</em>
+            </p>
+            <p class="text-white mb-0">Barista</p>
           </div>
         </div>
       </div>
@@ -16,6 +21,13 @@
         <div class="barista-info d-flex flex-column">
           <div class="flex mt-auto mb-3">
             <h4 class="text-white mb-0">Jamie</h4>
+                        <p class="badge ms-4">
+              ::before
+              <em>Senior</em>
+            </p>
+            <p class="text-white mb-0">
+              Barista
+            </p>
           </div>
         </div>
       </div>
@@ -23,6 +35,13 @@
         <div class="barista-info d-flex flex-column">
           <div class="flex mt-auto mb-3">
             <h4 class="text-white mb-0">Taylor</h4>
+            <p class="badge ms-4">
+              ::before
+              <em>Manager</em>
+            </p>
+            <p class="text-white mb-0">
+              Barista & Manager
+            </p>
           </div>
         </div>
       </div>
@@ -34,7 +53,9 @@
               ::before
               <em>Boss</em>
             </p>
-            <p class="text-white mb-0">Head Barista</p>
+            <p class="text-white mb-0">
+              Owner & Head Barista
+            </p>
           </div>
         </div>
       </div>
