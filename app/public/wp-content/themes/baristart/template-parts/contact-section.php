@@ -15,7 +15,7 @@
               <input type="text" name="name" id="name" class="form-control" placeholder="Jackson" required="">
             </div>
             <div class="col-lg-6 col-12">
-              <label for="email" class="form-label">Email Address</label>
+              <label for="email" class="form-label">Email Address<sup class="text-danger">*</sup></label>
               <input type="email" name="email" id="email" pattern="[^ @]*@[^ @]*" class="form-control" placeholder="Jack@gmail.com" required="">
             </div>
             <div class="col-12">
