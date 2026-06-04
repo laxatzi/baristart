@@ -44,7 +44,7 @@
           </div>
         <div class="reviews-info">
           <p>Lorem ipsum dolor sit amet.</p>
-          <div class="d-flex border-top pt-3 mt-4">
+          <div class="d-flex border-top pt-3 mt-4 justify-content-between">
             <strong class="text-white">"4.5"
               <small class="ms-2">Rating</small>
             </strong>
