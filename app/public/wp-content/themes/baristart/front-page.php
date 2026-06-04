@@ -17,6 +17,7 @@
             get_template_part('template-parts/barista-section');
             get_template_part('template-parts/menu-section');
             get_template_part('template-parts/testimonials-section');
+            get_template_part('template-parts/contact-section');
 
           ?>
           <?php
