@@ -1326,7 +1326,7 @@ progress {
   background-image: linear-gradient(
       to bottom,
       rgba(0, 0, 0, 0.45),
-      rgb(71, 41, 16)
+      rgb(49, 28, 11)
     ),
     url("assets/female-barista-wear-face-mask.jpg");
   background-repeat: no-repeat;
@@ -1363,6 +1363,10 @@ progress {
   opacity: 1;
 }
 
+.google-map {
+  border-radius: var(--border-radius-xl);
+  filter: grayscale(100);
+}
 /* --------------------------------------------------------------
 #Footer
 ---------------------------------------------------------------- */
