@@ -1125,7 +1125,8 @@ progress {
 #Our Menu
 ---------------------------------------------------------------- */
 .menu-section {
-  background-image: url("/assets/waitress-serving-coffee.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),
+    url("assets/waitress-serving-coffee.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -1145,11 +1146,11 @@ progress {
 }
 
 .food-menu small {
-  color: rgba(255, 255, 255, 0.35);
+  color: var(--bs-basic-color-light);
 }
 
 .food-menu strong {
-  color: var(--bs-basic-color-light);
+  color: var(--bs-highlight-bg-light);
 }
 
 .food-menu-image {
