@@ -1008,7 +1008,6 @@ progress {
 .about-section {
   background-color: var(--bs-basic-color);
   position: relative;
-  border: 2px solid yellow;
 }
 
 .about-video-info {
@@ -1327,7 +1326,7 @@ progress {
   background-image: linear-gradient(
       to bottom,
       rgba(0, 0, 0, 0.45),
-      rgba(188, 108, 37, 1)
+      rgb(71, 41, 16)
     ),
     url("assets/female-barista-wear-face-mask.jpg");
   background-repeat: no-repeat;
