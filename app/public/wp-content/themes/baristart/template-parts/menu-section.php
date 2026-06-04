@@ -3,11 +3,11 @@
     <div class="row justify-content-center">
       <div class="col-lg-6 col-12 text-center mb-4 mb-lg-0">
              <div class="menu-wrapper ">
-          <div class="food-menu-header text-center mb-4 pb-lg-2">
+          <div class="food-menu my-4-header text-center mb-4 pb-lg-2">
             <em class="text-white ">First Grade Breakfast</em>
             <h4 class="text-white ">Breakfast Specials</h4>
           </div>
-          <div class="food-menu">
+          <div class="food-menu my-4">
             <div class="d-flex">
               <h6 class="text-white">Toast Sandwich</h6>
               <span class="underline"></span>
@@ -18,7 +18,7 @@
             </div>
           </div>
        <!-- end of menu item -->
-                  <div class="food-menu">
+                  <div class="food-menu my-4">
             <div class="d-flex">
               <h6 class="text-white">Toast Sandwich</h6>
               <span class="underline"></span>
@@ -29,7 +29,7 @@
             </div>
           </div>
        <!-- end of menu item -->
-          <div class="food-menu">
+          <div class="food-menu my-4">
             <div class="d-flex">
               <h6 class="text-white">Waffle</h6>
               <span class="underline"></span>
@@ -40,7 +40,7 @@
             </div>
           </div>
        <!-- end of menu item -->
-          <div class="food-menu">
+          <div class="food-menu my-4">
             <div class="d-flex">
               <h6 class="text-white">Spanakopita</h6>
               <span class="underline"></span>
@@ -51,7 +51,7 @@
             </div>
           </div>
        <!-- end of menu item -->
-          <div class="food-menu">
+          <div class="food-menu my-4">
             <div class="d-flex">
               <h6 class="text-white">Pancakes</h6>
               <span class="underline"></span>
@@ -68,11 +68,11 @@
 
       <div class="col-lg-6 col-12">
         <div class="menu-wrapper ">
-          <div class="food-menu-header text-center mb-4 pb-lg-2">
+          <div class="food-menu my-4-header text-center mb-4 pb-lg-2">
             <em class="text-white ">First Grade Coffee</em>
             <h4 class="text-white ">Coffee Specials</h4>
           </div>
-          <div class="food-menu">
+          <div class="food-menu my-4">
             <div class="d-flex">
               <h6 class="text-white">Latte</h6>
               <span class="underline"></span>
@@ -84,7 +84,7 @@
           </div>
           <!-- end of menu item -->
 
-          <div class="food-menu">
+          <div class="food-menu my-4">
             <div class="d-flex">
               <h6 class="text-white">Cappuccino</h6>
               <span class="underline"></span>
@@ -96,7 +96,7 @@
           </div>
           <!-- end of menu item -->
 
-           <div class="food-menu">
+           <div class="food-menu my-4">
             <div class="d-flex">
               <h6 class="text-white">Americano</h6>
               <span class="underline"></span>
@@ -108,7 +108,7 @@
           </div>
           <!-- end of menu item -->
 
-          <div class="food-menu">
+          <div class="food-menu my-4">
             <div class="d-flex">
               <h6 class="text-white">Dark Chocolate</h6>
               <span class="underline"></span>
@@ -120,7 +120,7 @@
           </div>
           <!-- end of menu item -->
 
-          <div class="food-menu">
+          <div class="food-menu my-4">
             <div class="d-flex">
               <h6 class="text-white">Green Tea</h6>
               <span class="underline"></span>
