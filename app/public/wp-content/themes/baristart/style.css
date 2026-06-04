@@ -1335,6 +1335,35 @@ progress {
   background-size: cover;
 }
 
+.custom-form .form-label {
+  color: var(--bs-light);
+  font-style: italic;
+  margin-bottom: 15px;
+  font-size: 1.2rem;
+}
+
+.custom-form .form-control {
+  color: var(--bs-light);
+  border-radius: var(--bs-border-radius);
+  margin-bottom: 30px;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  box-shadow: none;
+  outline: none;
+  transition: all 0.3s;
+}
+
+.contact-form .form-control,
+.booking-form .form-control {
+  background-color: transparent;
+  border-color: rgba(255, 255, 255, 0.25);
+}
+
+.form-control::placeholder {
+  color: var(--bs-gray-400);
+  opacity: 1;
+}
+
 /* --------------------------------------------------------------
 #Footer
 ---------------------------------------------------------------- */
@@ -2836,12 +2865,8 @@ select {
 .form-control::-webkit-date-and-time-value {
   height: 1.5em;
 }
-.form-control::-moz-placeholder {
-  color: #6c757d;
-  opacity: 1;
-}
+
 .form-control::placeholder {
-  color: #6c757d;
   opacity: 1;
 }
 .form-control:disabled {
