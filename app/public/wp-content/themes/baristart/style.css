@@ -1260,8 +1260,9 @@ progress {
   overflow: hidden;
 }
 
-.reviews-img-wrap {
-  background-image: url("/assets/wiping-espresso-machine.jpg");
+.reviews-img-wrapper {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),
+    url("assets/wiping-espresso-machine.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -1269,11 +1270,11 @@ progress {
 }
 
 .reviews-image {
-    border-radius: var(--bs-border-radius-3xl);
-    width: 65px;
-    height: 65px;
-    object-fit: cover;
-    margin-right: 10px;
+  border-radius: var(--bs-border-radius-3xl);
+  width: 65px;
+  height: 65px;
+  object-fit: cover;
+  margin-right: 10px;
 }
 
 .reviews-info {

@@ -11,7 +11,7 @@
         <div class="timeline-content">
         <div class="reviews">
           <div class="reviews-img-wrapper">
-            <img src="<?php echo esc_url( get_template_directory_uri() . '/assets/woman-with-yellow-sweater.jpg' ); ?>" alt="Sandra" class="img-fluid reviews-img">
+            <img src="<?php echo esc_url( get_template_directory_uri() . '/assets/woman-with-yellow-sweater.jpg' ); ?>" alt="Sandra" class="img-fluid reviews-image">
             <div class="img-name">
               <h6 class="text-white">Sandra</h6>
               <em class="text-white">Customer</em>
@@ -44,7 +44,7 @@
         <div class="timeline-content">
         <div class="reviews">
           <div class="reviews-img-wrapper">
-            <img src="<?php echo esc_url( get_template_directory_uri() . '/assets/man-white-sweater.jpg' ); ?>" alt="John" class="img-fluid reviews-img">
+            <img src="<?php echo esc_url( get_template_directory_uri() . '/assets/man-white-sweater.jpg' ); ?>" alt="John" class="img-fluid reviews-image">
             <div class="img-name">
               <h6 class="text-white">John</h6>
               <em class="text-white">Customer</em>
@@ -77,7 +77,7 @@
         <div class="timeline-content">
         <div class="reviews">
           <div class="reviews-img-wrapper">
-            <img src="<?php echo esc_url( get_template_directory_uri() . '/assets/woman-pink-warm-sweater.jpg' ); ?>" alt="Emily" class="img-fluid reviews-img">
+            <img src="<?php echo esc_url( get_template_directory_uri() . '/assets/woman-pink-warm-sweater.jpg' ); ?>" alt="Emily" class="img-fluid reviews-image">
             <div class="img-name">
               <h6 class="text-white">Emily</h6>
               <em class="text-white">Customer</em>
