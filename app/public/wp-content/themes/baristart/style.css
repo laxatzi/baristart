@@ -1206,6 +1206,14 @@ progress {
   overflow: hidden;
 }
 
+.reviews-img-wrap {
+  background-image: url("/assets/wiping-espresso-machine.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 30px;
+}
+
 /* --------------------------------------------------------------
 #Footer
 ---------------------------------------------------------------- */
