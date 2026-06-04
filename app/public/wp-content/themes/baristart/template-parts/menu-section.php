@@ -13,9 +13,9 @@
               <span class="underline"></span>
               <strong class="ms-auto">$5.99</strong>
             </div>
-                      <div class="border-top mt-2 pt-2">
-            <small>Top quality ingredients</small>
-          </div>
+            <div class="border-top mt-2 pt-2 text-start">
+              <small>Top quality ingredients</small>
+            </div>
           </div>
 
         </div>
