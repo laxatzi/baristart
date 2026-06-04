@@ -1218,6 +1218,23 @@ progress {
   border-color: transparent white transparent transparent;
 }
 
+.timeline-container::after {
+  content: "";
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  right: -12px;
+  background-color: var(--bs-light);
+  border: 5px solid #7c5c52;
+  top: 15px;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+.timeline-container-right::after {
+  left: -13px;
+}
+
 .timeline-content {
   padding: 5px;
   background-color: var(--bs-light);
@@ -1263,6 +1280,34 @@ progress {
 
 .reviews-group i {
   color: var(--bs-light);
+}
+
+@media screen and (max-width: 991px) {
+  .timeline::after {
+    left: 31px;
+  }
+
+  .timeline-container {
+    width: 100%;
+    padding-left: 70px;
+    padding-right: 25px;
+  }
+
+  .timeline-container::before {
+    left: 58px;
+    border: medium solid white;
+    border-width: 20px 20px 20px 0;
+    border-color: transparent white transparent transparent;
+  }
+
+  .timeline-container-left::after,
+  .timeline-container-right::after {
+    left: 6px;
+  }
+
+  .timeline-container-right {
+    left: 0%;
+  }
 }
 
 /* --------------------------------------------------------------
