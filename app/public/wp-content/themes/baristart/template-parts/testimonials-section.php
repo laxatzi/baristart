@@ -12,6 +12,10 @@
         <div class="reviews">
           <div class="reviews-img-wrapper">
             <img src="" alt="">
+            <div class="img-name">
+              <h6 class="text-white">Sandra</h6>
+              <em class="text-white">Customer</em>
+            </div>
           </div>
         <div class="reviews-info">
           <p>Lorem ipsum dolor sit amet.</p>
@@ -41,6 +45,10 @@
         <div class="reviews">
           <div class="reviews-img-wrapper">
             <img src="" alt="">
+            <div class="img-name">
+              <h6 class="text-white">John</h6>
+              <em class="text-white">Customer</em>
+            </div>
           </div>
         <div class="reviews-info">
           <p>Lorem ipsum dolor sit amet.</p>
@@ -70,6 +78,10 @@
         <div class="reviews">
           <div class="reviews-img-wrapper">
             <img src="" alt="">
+            <div class="img-name">
+              <h6 class="text-white">Emily</h6>
+              <em class="text-white">Customer</em>
+            </div>
           </div>
         <div class="reviews-info">
           <p>Lorem ipsum dolor sit amet.</p>
