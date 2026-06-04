@@ -1192,6 +1192,20 @@ progress {
   width: 50%;
 }
 
+.timeline-content {
+  padding: 5px;
+  background-color: var(--bs-light);
+  position: relative;
+  border-radius: var(--bs-border-radius-xl);
+}
+
+.reviews {
+  background-color: var(--bs-basic-color-light);
+  border-radius: var(--bs-border-radius-xl);
+  position: relative;
+  overflow: hidden;
+}
+
 /* --------------------------------------------------------------
 #Footer
 ---------------------------------------------------------------- */
