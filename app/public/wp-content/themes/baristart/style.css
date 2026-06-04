@@ -1125,14 +1125,14 @@ progress {
 #Our Menu
 ---------------------------------------------------------------- */
 .menu-section {
-  background-image: url("../images/happy-waitress-giving-coffee-customers-while-serving-them-coffee-shop.jpg");
+  background-image: url("/assets/waitress-serving-coffee.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .menu-wrapper {
   background: rgba(0, 0, 0, 0.65);
-  border-radius: var(--border-radius-medium);
+  border-radius: var(--bs-border-radius-xl);
   padding: 45px;
 }
 
@@ -1149,7 +1149,7 @@ progress {
 }
 
 .food-menu strong {
-  color: var(--secondary-color);
+  color: var(--bs-basic-color-light);
 }
 
 .food-menu-image {
