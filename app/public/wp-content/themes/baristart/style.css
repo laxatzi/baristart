@@ -4076,10 +4076,18 @@ fieldset:disabled .btn {
   border-radius: var(--bs-border-radius-pill);
   color: var(--bs-light);
   font-size: var(--btn-font-size);
-  font-weight: var(--font-weight-bold);
+  font-weight: bolder;
   line-height: normal;
   transition: all 0.3s;
   padding: 12px 28px;
+}
+
+.custom-btn:focus,
+.custom-btn:hover,
+.custom-btn:active {
+  background: var(--bs-light);
+  color: var(--bs-basic-color);
+  border-color: var(--bs-light);
 }
 /* --------------------------------------------------------------
 # Animation
