@@ -1363,6 +1363,10 @@ progress {
   opacity: 1;
 }
 
+textarea.form-control {
+  min-height: calc(1.5em + 0.75rem + 2px);
+}
+
 .google-map {
   border-radius: var(--border-radius-xl);
   filter: grayscale(100);
