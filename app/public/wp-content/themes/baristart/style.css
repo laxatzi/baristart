@@ -1352,6 +1352,11 @@ progress {
   transition: all 0.3s;
 }
 
+.custom-form button.form-control {
+  background-color: var(--bs-basic-color-light);
+  border-color: var(--bs-basic-color);
+}
+
 .custom-form .form-control:focus,
 .custom-form .form-control:active,
 .custom-form .form-control:hover {
