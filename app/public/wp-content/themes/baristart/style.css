@@ -1357,18 +1357,19 @@ progress {
   border-color: var(--bs-basic-color);
 }
 
-.custom-form button.form-control:focus,
-.custom-form button.form-control:active,
-.custom-form button.form-control:hover {
-  background-color: var(--bs-basic-color-light);
-  border-color: var(--bs-basic-color);
-}
-
 .custom-form .form-control:focus,
 .custom-form .form-control:active,
 .custom-form .form-control:hover {
   background-color: var(--bs-basic-color-light);
   border-color: var(--bs-basic-color);
+}
+
+.custom-form button.form-control:focus,
+.custom-form button.form-control:active,
+.custom-form button.form-control:hover {
+  background-color: var(--bs-light);
+  color: var(--bs-basic-color);
+  font-weight: bolder;
 }
 
 .contact-form .form-control,
