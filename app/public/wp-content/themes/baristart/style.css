@@ -4071,10 +4071,10 @@ fieldset:disabled .btn {
 }
 
 .custom-btn {
-  background: var(--bs-basic-color-light);
-  border: 2px solid transparent;
+  background: transparent;
+  border: 2px solid var(--bs-light);
   border-radius: var(--bs-border-radius-pill);
-  color: var(--white-color);
+  color: var(--bs-light);
   font-size: var(--btn-font-size);
   font-weight: var(--font-weight-bold);
   line-height: normal;
