@@ -1352,6 +1352,13 @@ progress {
   transition: all 0.3s;
 }
 
+.custom-form .form-control:focus,
+.custom-form .form-control:active,
+.custom-form .form-control:hover {
+  background-color: var(--bs-basic-color-light);
+  border-color: var(--bs-basic-color);
+}
+
 .contact-form .form-control,
 .booking-form .form-control {
   background-color: transparent;
