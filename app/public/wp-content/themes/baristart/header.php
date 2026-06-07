@@ -66,7 +66,12 @@
             <a class="nav-link click-scroll inactive" href="#section_5">Contact</a>
           </li>
         </ul>
-
+        <div class="ms-lg-3">
+          <a class="btn custom-btn custom-border-btn" href="reservation.html">
+            Reservation
+           <i class="bi-arrow-up-right ms-2"></i>
+         </a>
+        </div>
 			</div>
 		</div>
 	</nav>
