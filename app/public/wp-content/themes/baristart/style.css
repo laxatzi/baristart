@@ -1024,6 +1024,30 @@ progress {
   padding-bottom: 30px;
 }
 
+.hero-section .container {
+  position: relative;
+  z-index: 0;
+}
+
+.hero-info {
+  display: inline-block;
+}
+
+.hero-info::after {
+  background-color: rgb(19, 19, 19);
+  opacity: 0.85;
+  border-radius: var(--bs-border-radius-xl);
+  padding: 30px;
+  content: "";
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-55%, -50%) rotate(45deg);
+  /* width: 250px;
+  height: 350px; */
+  pointer-events: none;
+}
+
 /* --------------------------------------------------------------
 #About Section
 ---------------------------------------------------------------- */
@@ -2620,7 +2644,6 @@ select {
 }
 
 .section-overlay {
-  /* background-color: black; */
   position: absolute;
   z-index: 9;
   top: 0;
@@ -4103,6 +4126,10 @@ fieldset:disabled .btn {
   line-height: normal;
   transition: all 0.3s;
   padding: 12px 28px;
+}
+
+.custom-btn.custom-btn--distinct {
+  background: var(--bs-basic-color-light);
 }
 
 .custom-btn:focus,
