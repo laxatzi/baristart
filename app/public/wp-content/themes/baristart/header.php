@@ -44,6 +44,7 @@
 		<div class="container">
 			<a href="<?php echo esc_url( home_url( '/' ) ); ?>" class="navbar-brand d-flex align-items-center">
 				<img src="<?php echo get_template_directory_uri(); ?>/assets/coffee-beans-logo.png" alt="Baristart Cafe" class="navbar-brand-image img">
+				<h3 class="text-white ms-2">Baristart</h3>
 			</a>
 			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -51,19 +52,23 @@
 			 <div class="collapse navbar-collapse" id="navbarNav">
          <ul class="navbar-nav ms-lg-auto">
            <li class="nav-item">
-             <a class="nav-link click-scroll active" href="#section_1">Home</a>
+             <a class="nav-link click-scroll active" href="#section_home">Home</a>
            </li>
 					 <li class="nav-item">
-              <a class="nav-link click-scroll inactive" href="#section_2">About</a>
+              <a class="nav-link click-scroll inactive" href="#section_about">About</a>
+           </li>
+					 					 <li class="nav-item">
+              <a class="nav-link click-scroll inactive" href="#section_baristas">Staff</a>
            </li>
 					 <li class="nav-item">
-            <a class="nav-link click-scroll inactive" href="#section_3">Our Menu</a>
+            <a class="nav-link click-scroll inactive" href="#section_menu">Our Menu</a>
            </li>
+
 					 <li class="nav-item">
-             <a class="nav-link click-scroll inactive" href="#section_4">Reviews</a>
+             <a class="nav-link click-scroll inactive" href="#section_reviews">Reviews</a>
           </li>
 					<li class="nav-item">
-            <a class="nav-link click-scroll inactive" href="#section_5">Contact</a>
+            <a class="nav-link click-scroll inactive" href="#section_contact">Contact</a>
           </li>
         </ul>
         <div class="ms-lg-3">
