@@ -1034,7 +1034,7 @@ progress {
 }
 
 .hero-info::after {
-  background-color: rgb(19, 19, 19);
+  background-color: rgb(45, 44, 44);
   opacity: 0.85;
   border-radius: var(--bs-border-radius-xl);
   padding: 30px;
@@ -1045,7 +1045,17 @@ progress {
   transform: translate(-55%, -50%) rotate(45deg);
   /* width: 250px;
   height: 350px; */
+  width: 30vw;
+  height: 40vh;
   pointer-events: none;
+  z-index: -1;
+}
+
+@media screen and (max-width: 801px) {
+  .hero-info::after {
+    width: 250px;
+    height: 350px;
+  }
 }
 
 /* --------------------------------------------------------------
