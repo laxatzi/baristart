@@ -972,16 +972,12 @@ progress {
   border: 2px solid green;
 }
 
-.site-header {
-  position: absolute;
-  z-index: 999999;
-  top: 0;
-  right: 0;
-  left: 0;
-}
-
 /* --------------------------------------------------------------
 #Front Page
+---------------------------------------------------------------- */
+
+/* --------------------------------------------------------------
+#Hero Section
 ---------------------------------------------------------------- */
 .hero-section {
   background-color: black;
@@ -1007,6 +1003,21 @@ progress {
 
 .hero-section h1 {
   color: white;
+}
+
+.sticky-wrapper {
+  position: absolute;
+  z-index: 999999;
+  top: 0;
+  right: 0;
+  left: 0;
+}
+
+.navbar {
+  background: transparent;
+  z-index: 999999;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 /* --------------------------------------------------------------
