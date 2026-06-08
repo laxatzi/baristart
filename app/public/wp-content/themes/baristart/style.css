@@ -1016,18 +1016,16 @@ progress {
   z-index: 999999;
   top: 50px;
   right: 0;
-  left: 0;
+  left: 12vw;
   height: 150px;
-  border: 2px solid pink;
-  display: flex;
 }
 
 .navbar .container {
-  background: rgba(0, 0, 0, 0.35);
-  opacity: 0.85;
-  border-radius: var(--border-radius-xl);
-  border: 2px solid yellow;
+  background: rgba(0, 0, 0, 0.55);
+  border-radius: 20px;
   padding: 15px;
+  position: fixed;
+  /* max-width: 300px; */
 }
 
 .hero-section .container {
@@ -1042,13 +1040,13 @@ progress {
 .hero-info::after {
   background-color: rgb(45, 44, 44);
   opacity: 0.85;
-  border-radius: var(--bs-border-radius-xl);
+  border-radius: 20px;
   padding: 30px;
   content: "";
   position: absolute;
   top: 55%;
   left: 50%;
-  transform: translate(-55%, -50%) rotate(45deg);
+  transform: translate(-55%, -50%) rotate(35deg);
   width: 30vw;
   height: 35vh;
   pointer-events: none;
