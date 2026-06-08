@@ -991,10 +991,10 @@ progress {
   text-align: center;
   height: 100vh;
 }
-@media screen and (max-width: 801px) {
+@media screen and (max-width: 1101px) {
   .hero-section {
     background-image: url("assets/female-barista-wear-face-mask-SmallScreen.jpg");
-    height: 70vh;
+    height: 80vh;
   }
 }
 
@@ -1021,11 +1021,24 @@ progress {
 }
 
 .navbar .container {
-  background: rgba(0, 0, 0, 0.55);
+  background: rgba(0, 0, 0, 0.7);
   border-radius: 20px;
   padding: 15px;
-  position: fixed;
-  /* max-width: 300px; */
+  max-width: 70%;
+}
+
+@media screen and (max-width: 1501px) {
+  .navbar .container {
+    max-width: 80%;
+    border: 2px solid lightpink;
+  }
+}
+
+@media screen and (max-width: 1101px) {
+  .navbar .container {
+    max-width: 90%;
+    border: 2px solid yellow;
+  }
 }
 
 .hero-section .container {
@@ -1053,7 +1066,7 @@ progress {
   z-index: -1;
 }
 
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 1101px) {
   .hero-info::after {
     width: 250px;
     height: 350px;

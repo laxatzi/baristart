@@ -1,4 +1,4 @@
-<section class="about-section section-padding" id="section_2">
+<section class="about-section section-padding" id="section_about">
 <div class="section-overlay"></div>
 <div class="container">
   <div class="row align-items-center">

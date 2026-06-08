@@ -61,11 +61,11 @@
               <a class="nav-link click-scroll inactive" href="#section_baristas">Staff</a>
            </li>
 					 <li class="nav-item">
-            <a class="nav-link click-scroll inactive" href="#section_menu">Our Menu</a>
+            <a class="nav-link click-scroll inactive" href="#section_menu">Menu</a>
            </li>
 
 					 <li class="nav-item">
-             <a class="nav-link click-scroll inactive" href="#section_reviews">Reviews</a>
+             <a class="nav-link click-scroll inactive" href="#section_testimonials">Reviews</a>
           </li>
 					<li class="nav-item">
             <a class="nav-link click-scroll inactive" href="#section_contact">Contact</a>

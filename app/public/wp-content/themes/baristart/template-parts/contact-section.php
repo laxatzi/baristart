@@ -1,4 +1,4 @@
-<section class="contact-section section-padding">
+<section class="contact-section section-padding" id="section_contact">
   <div class="container">
     <div class="row">
       <div class="col-lg-12 col-12">
