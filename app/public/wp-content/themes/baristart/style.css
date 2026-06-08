@@ -1014,22 +1014,20 @@ progress {
 .sticky-wrapper {
   position: absolute;
   z-index: 999999;
-  top: 0;
+  top: 50px;
   right: 0;
   left: 0;
-}
-
-.navbar {
-  background: transparent;
-  z-index: 999999;
-  padding-top: 30px;
-  padding-bottom: 30px;
+  height: 150px;
+  border: 2px solid pink;
+  display: flex;
 }
 
 .navbar .container {
   background: rgba(0, 0, 0, 0.35);
+  opacity: 0.85;
   border-radius: var(--border-radius-xl);
-  padding: 15px 30px;
+  border: 2px solid yellow;
+  padding: 15px;
 }
 
 .hero-section .container {
