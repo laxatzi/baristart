@@ -981,7 +981,7 @@ progress {
 ---------------------------------------------------------------- */
 .hero-section {
   background-color: black;
-  background-image: url("assets/female-barista-wear-face-mask-SmallScreen.jpg");
+  background-image: url("assets/female-barista-wear-face-mask-Small.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -994,6 +994,7 @@ progress {
 @media screen and (max-width: 801px) {
   .hero-section {
     background-image: url("assets/female-barista-wear-face-mask-SmallScreen.jpg");
+    height: 70vh;
   }
 }
 
@@ -1023,6 +1024,12 @@ progress {
   z-index: 999999;
   padding-top: 30px;
   padding-bottom: 30px;
+}
+
+.navbar .container {
+  background: rgba(0, 0, 0, 0.35);
+  border-radius: var(--border-radius-xl);
+  padding: 15px 30px;
 }
 
 .hero-section .container {
