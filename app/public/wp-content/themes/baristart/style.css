@@ -981,6 +981,10 @@ progress {
 ---------------------------------------------------------------- */
 .hero-section {
   background-color: black;
+  background-image: url("assets/female-barista-wear-face-mask.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
   position: relative;
   overflow: hidden;
   min-height: 620px;
