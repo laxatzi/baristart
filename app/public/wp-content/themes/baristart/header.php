@@ -40,10 +40,10 @@
 		<?php esc_html_e( 'Skip to content', 'baristart' ); ?>
 	</a>
 <div id="sticky-wrapper" class="sticky-wrapper" style="height: 164px;">
-  <nav class="navbar navbar-expand-lg">
+  <nav class="navbar navbar-expand-lg" style="width: 716px;position:fixed;top:0;">
 		<div class="container">
 			<a href="<?php echo esc_url( home_url( '/' ) ); ?>" class="navbar-brand d-flex align-items-center">
-				<img src="" alt="Baristart Cafe" class="navbar-brand-image img">
+				<img src="<?php echo get_template_directory_uri(); ?>/assets/coffee-beans-logo.png" alt="Baristart Cafe" class="navbar-brand-image img">
 			</a>
 			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>

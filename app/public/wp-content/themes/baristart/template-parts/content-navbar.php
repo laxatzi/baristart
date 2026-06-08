@@ -33,7 +33,7 @@ $links = [
     <nav class="navbar navbar-expand-lg" aria-label="<?php esc_attr_e( 'Primary Navigation', 'baristart' ); ?>">
       <div class="container">
         <a class="navbar-brand d-flex align-items-center" href="index.html">
-          <img src="images/coffee-beans.png" class="navbar-brand-image img-fluid" alt="Barista Cafe Template">
+          <img src="assets/coffee-beans-logo.png" class="navbar-brand-image img-fluid" alt="Barista Cafe Template">
             Barista
         </a>
 
