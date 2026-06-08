@@ -1047,13 +1047,13 @@ progress {
   top: 55%;
   left: 50%;
   transform: translate(-55%, -50%) rotate(35deg);
-  width: 30vw;
-  height: 35vh;
+  width: 25vw;
+  height: 36vh;
   pointer-events: none;
   z-index: -1;
 }
 
-@media screen and (max-width: 801px) {
+@media screen and (max-width: 960px) {
   .hero-info::after {
     width: 250px;
     height: 350px;
