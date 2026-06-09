@@ -49,7 +49,7 @@
 			<!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
        </button> -->
-			 <input id="toggle" type="checkbox"></input>
+			 <input id="toggle" type="checkbox" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"></input>
 
 				<label for="toggle" class="hamburger">
 					<div class="top-bun"></div>
