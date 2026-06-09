@@ -1030,14 +1030,12 @@ progress {
 @media screen and (max-width: 1501px) {
   .navbar .container {
     max-width: 80%;
-    border: 2px solid lightpink;
   }
 }
 
 @media screen and (max-width: 1101px) {
   .navbar .container {
     max-width: 90%;
-    border: 2px solid yellow;
   }
 }
 
@@ -4863,10 +4861,29 @@ fieldset:disabled .btn {
   background-position: center;
   background-size: 100%;
 }
+
+.navbar-toggler .navbar-toggler-icon {
+  background: var(--bs-white);
+  display: block;
+  width: 30px;
+  height: 2px;
+  position: relative;
+}
+
+.navbar-toggler .navbar-toggler-icon::before {
+  top: -8px;
+  background: var(--bs-white);
+}
+
+.navbar-toggler .navbar-toggler-icon::after {
+  top: 8px;
+}
+
 .navbar-nav-scroll {
   max-height: var(--bs-scroll-height, 75vh);
   overflow-y: auto;
 }
+
 @media (min-width: 576px) {
   .navbar-expand-sm {
     flex-wrap: nowrap;
