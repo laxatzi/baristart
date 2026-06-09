@@ -46,9 +46,6 @@
 				<img src="<?php echo get_template_directory_uri(); ?>/assets/coffee-beans-logo.png" alt="Baristart Cafe" class="navbar-brand-image img">
 				<h3 class="text-white ms-2">Baristart</h3>
 			</a>
-			<!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-       </button> -->
 			 <input id="toggle" type="checkbox" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"></input>
 
 				<label for="toggle" class="hamburger">
