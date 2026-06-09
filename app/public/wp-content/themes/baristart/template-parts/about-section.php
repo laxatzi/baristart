@@ -19,7 +19,7 @@
       <h2 class="mb-3 text-white">Welcome to Baristart Cafe</h2>
       <p class="mb-4 text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor. </p>
       <p class="mb-4 text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-    <a href="" class="smoothscroll btn custom-btn mt3 mb-4">
+    <a href="#section_baristas" class="smoothscroll btn custom-btn mt3 mb-4">
       Meet Baristas
     </a>
 
