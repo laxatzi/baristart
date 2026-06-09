@@ -970,13 +970,20 @@ progress {
 **/
 .hamburger {
   position: absolute;
-  top: 5em;
+  top: 4.5em;
   right: 5%;
   margin-left: -2em;
   margin-top: -45px;
   width: 2em;
   height: 45px;
   z-index: 5;
+  display: none;
+}
+@media screen and (max-width: 990px) {
+  .hamburger {
+    display: block;
+    right: 5em;
+  }
 }
 
 .hamburger div {
@@ -987,7 +994,6 @@ progress {
   background-color: var(--bs-white);
   margin-top: 8px;
   transition: all 0.3s ease-in-out;
-  border: 2px solid var(--bs-white);
 }
 
 /**
