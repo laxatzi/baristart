@@ -982,14 +982,14 @@ progress {
 @media screen and (max-width: 990px) {
   .hamburger {
     display: block;
-    right: 5em;
+    right: 3em;
   }
 }
 
 .hamburger div {
   position: relative;
-  width: 3em;
-  height: 7px;
+  width: 2em;
+  height: 3px;
   border-radius: 3px;
   background-color: var(--bs-white);
   margin-top: 8px;
@@ -1011,12 +1011,12 @@ Animations
 
 #toggle:checked + .hamburger .meat {
   transform: rotate(45deg);
-  margin-top: -7px;
+  margin-top: -4px;
 }
 
 #toggle:checked + .hamburger + .nav {
   top: 0;
-  transform: scale(1);
+  transform: scale(0);
 }
 
 /* --------------------------------------------------------------
