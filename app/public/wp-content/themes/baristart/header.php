@@ -64,9 +64,7 @@
 					 <li class="nav-item">
               <a class="nav-link click-scroll inactive" href="#section_about">About</a>
            </li>
-					 					 <li class="nav-item">
-              <a class="nav-link click-scroll inactive" href="#section_baristas">Staff</a>
-           </li>
+
 					 <li class="nav-item">
             <a class="nav-link click-scroll inactive" href="#section_menu">Menu</a>
            </li>
