@@ -1650,11 +1650,31 @@ select {
   background-position: center;
   background-size: cover;
   position: relative;
-  height: 100vh;
+  /* height: 100vh; */
+  min-width: 400px;
 }
 
 .reservation-form {
-  padding: 200px 100px 100px;
+  padding: 200px 0px 100px 0px;
+}
+
+.booking-form {
+  border: 1px solid transparent;
+  border-radius: 20px;
+  background-color: black;
+  opacity: 0.85;
+  height: 60vh;
+  width: 100%;
+  max-width: 800px;
+  min-width: 350px;
+  margin: auto;
+  padding: 20px 50px;
+}
+
+@media (max-width: 500px) {
+  .booking-form {
+    padding: 35px;
+  }
 }
 
 /* --------------------------------------------------------------
