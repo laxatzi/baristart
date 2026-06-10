@@ -1080,13 +1080,12 @@ Animations
   z-index: 999999;
   top: 50px;
   right: 0;
-  /* left: 12vw; */
   left: 1vw;
   height: 150px;
 }
 
 .navbar .container {
-  background: rgba(0, 0, 0, 0.7);
+  background: rgba(0, 0, 0, 0.85);
   border-radius: 20px;
   padding: 15px;
   max-width: 70%;
@@ -1651,7 +1650,6 @@ select {
   background-position: center;
   background-size: cover;
   position: relative;
-  /* height: 100vh; */
   min-width: 400px;
 }
 
