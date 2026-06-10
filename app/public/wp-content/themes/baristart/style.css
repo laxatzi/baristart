@@ -517,11 +517,9 @@ ul ul {
 
 @media (max-width: 768px) {
   .opening-hours-list li .underline {
-	width: 15%;
+    width: 15%;
+  }
 }
-
-}
-
 
 /* --------------------------------------------------------------
 # Tables
@@ -1640,6 +1638,25 @@ select {
   border-radius: 4px;
   padding: 3px 10px;
   border: 1px solid var(--bs-basic-color);
+}
+
+/* --------------------------------------------------------------
+#Reservation
+---------------------------------------------------------------- */
+
+.reservation-main {
+  background-image: url("assets/waitress-serving-coffee.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  height: 100vh;
+}
+
+.reservation-form {
+  border: 2px solid yellow;
+  margin-top: 100px;
+  padding: 100px;
 }
 
 /* --------------------------------------------------------------
