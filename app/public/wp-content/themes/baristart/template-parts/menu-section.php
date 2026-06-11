@@ -137,6 +137,6 @@
       </div>
 
     </div>
-      <input class="mx-auto d-block p-2 mt-5 col-lg-4 col-12"type="button" value="View Full Menu" onclick="window.location.href='#'">
+      <input class="mx-auto d-block p-2 mt-5 col-lg-4 col-12 page-button text-white" type="button" value="View Full Menu" onclick="window.location.href='<?php echo esc_url( site_url( '/menu' ) ); ?>'">
   </div>
 </section>
