@@ -291,7 +291,7 @@ ol[role="list"] {
 /* Set core body defaults */
 body {
   min-height: 100vh;
-  min-width: 400px;
+  min-width: 300px;
   line-height: 1.5;
 }
 
@@ -1293,8 +1293,9 @@ Animations
   object-fit: cover;
   display: block;
   margin: auto;
-  cursor: pointer;
 }
+
+
 
 /* --------------------------------------------------------------
 #Testimonials
@@ -1650,7 +1651,7 @@ select {
   background-position: center;
   background-size: cover;
   position: relative;
-  min-width: 400px;
+  min-width: 300px;
 }
 
 .reservation-form {
