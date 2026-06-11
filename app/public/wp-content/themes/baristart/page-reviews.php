@@ -2,7 +2,7 @@
 get_header();
 ?>
 <?php
- echo "This is the reviews page";
+ get_template_part( 'template-parts/testimonials-section' );
 ?>
 <?php
 get_footer();
