@@ -1295,7 +1295,18 @@ Animations
   margin: auto;
 }
 
+.page-button {
+  background-color: var(--bs-basic-color-light);
+  border: 1px solid transparent;
+  border-radius: 20px;
+}
 
+.page-button:hover,
+.page-button:focus {
+  background-color: var(--bs-highlight-bg-light);
+  color: var(--bs-basic-color);
+  font-weight: bolder;
+}
 
 /* --------------------------------------------------------------
 #Testimonials
