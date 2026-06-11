@@ -1,5 +1,4 @@
 <?php
-// Template for the “Search” page (slug: search)
 get_header();
 ?>
   <main id="primary" class="reservation-main text-white" aria-labelledby="reservation-title">
