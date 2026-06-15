@@ -67,7 +67,7 @@
            </li>
 
 					 <li class="nav-item">
-             <a class="nav-link click-scroll inactive" href="<?php echo esc_url( site_url( '/reviews' ) ); ?>">Reviews</a>
+             <a class="nav-link click-scroll inactive" href="#section_testimonials">Reviews</a>
           </li>
 					<li class="nav-item">
             <a class="nav-link click-scroll inactive" href="#section_contact">Contact</a>
