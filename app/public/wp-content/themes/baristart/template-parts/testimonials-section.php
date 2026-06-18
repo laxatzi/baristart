@@ -1,6 +1,6 @@
 <section class="testimonials-section section-padding" id="section_testimonials">
   <div class="container">
-    <div class="row justify-content-center">
+    <div class="row justify-content-center mt-5 pt-5">
       <div class="col-lg-12 col-12 text-center mb-5 pb-lg-2">
         <em class="small-text text-white">What Our Customers Say</em>
         <h2 class="text-white">Testimonials</h2>
