@@ -108,7 +108,7 @@
    <!-- timeline -->
   </div>
 
-     <input class="mx-auto d-block p-2 mt-5 col-lg-4 col-12 page-button text-white" type="button" value="View All Reviews" onclick="window.location.href='<?php echo esc_url( site_url( '/reviews' ) ); ?>'">
+
   <!-- container -->
   </div>
 </section>
