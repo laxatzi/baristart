@@ -1,6 +1,6 @@
 <section class="testimonials-section section-padding" id="section_testimonials">
   <div class="container">
-    <div class="row justify-content-center mt-5 pt-5">
+    <div class="row justify-content-center">
       <div class="col-lg-12 col-12 text-center mb-5 pb-lg-2">
         <em class="small-text text-white">What Our Customers Say</em>
         <h2 class="text-white">Testimonials</h2>
@@ -108,7 +108,7 @@
    <!-- timeline -->
   </div>
 
-
+     <input class="mx-auto d-block p-2 mt-5 col-lg-4 col-12 page-button text-white" type="button" value="View All Reviews" onclick="window.location.href='<?php echo esc_url( site_url( '/reviews' ) ); ?>'">
   <!-- container -->
   </div>
 </section>
