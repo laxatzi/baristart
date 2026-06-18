@@ -56,7 +56,7 @@
 			 <div class="collapse navbar-collapse" id="navbarNav">
          <ul class="navbar-nav ms-lg-auto">
            <li class="nav-item">
-             <a class="nav-link click-scroll active" href="#section_home">Home</a>
+             <a class="nav-link click-scroll active" href="<?php echo esc_url( site_url( '/' ) ); ?>">Home</a>
            </li>
 					 <li class="nav-item">
               <a class="nav-link click-scroll inactive" href="#section_about">About</a>
