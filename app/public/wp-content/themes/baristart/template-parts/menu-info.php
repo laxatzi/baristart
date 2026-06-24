@@ -1,4 +1,3 @@
-	<div class="row">
 
 					<div class="col-lg-4 col-12 me-auto">
 					  <em class="text-white d-block mb-4">Where to find us?</em>
@@ -61,4 +60,3 @@
                 </li>
               </ul>
             </div> <!-- col -->
-							</div><!-- .row -->
