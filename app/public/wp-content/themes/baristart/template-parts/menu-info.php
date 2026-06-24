@@ -32,64 +32,68 @@ $hours = [
 
 $visible_socials = array_filter( $socials, fn( $s ) => ! empty( $s['url'] ) );
 ?>
-          <div class="col-lg-4 col-12 me-auto">
-					  <em class="text-white d-block mb-4">Where to find us?</em>
-						<strong class="text-white">
-              <i class="bi bi-geo-alt me-2"></i>
-              Mikras Asias 89,Pefka, Thessaloniki, Greece
-            </strong>
-						<ul class="social-icon mt-4">
-							<li class="social-icon-item">
-								<a href="#" target="_blank" rel="noopener noreferrer" class="social-icon-link" aria-label="<?php esc_attr_e( 'Facebook', 'baristart' ); ?>">
-									<i class="bi bi-facebook" aria-hidden="true"></i>
-								</a>
-							</li>
+       <div class="col-lg-4 col-12 me-auto">
+        <em class="text-white d-block mb-4"><?php esc_html_e( 'Where to find us?', 'baristart' ); ?></em>
 
-							<li class="social-icon-item">
-								<a href="#" target="_blank" rel="noopener noreferrer" class="social-icon-link" aria-label="<?php esc_attr_e( 'X Twitter', 'baristart' ); ?>">
-									<i class="bi bi-twitter" aria-hidden="true"></i>
-								</a>
-							</li>
+        <?php if ( $address ) : ?>
+        <strong class="text-white">
+            <i class="bi bi-geo-alt me-2" aria-hidden="true"></i>
+            <?php echo esc_html( $address ); ?>
+        </strong>
+        <?php endif; ?>
 
-							<li class="social-icon-item">
-								<a href="#" target="_blank" rel="noopener noreferrer" class="social-icon-link" aria-label="<?php esc_attr_e( 'WhatsApp', 'baristart' ); ?>">
-									<i class="bi bi-whatsapp" aria-hidden="true"></i>
-								</a>
-							</li>
-						</ul>
-					</div><!-- col -->
-					<div class="col-lg-3 col-12 mt-4 mb-3 mt-lg-0 mb-lg-0">
-            <em class="text-white d-block mb-4">Contact</em>
-						<p class="d-flex mb-1">
-              <strong class="me-2 text-white">Phone:</strong>
-              <a href="tel:+305-240-9671" class="site-footer-link" data-text="(65) 305 2409 671">
-                (65) 305 2409 671
-              </a>
-            </p>
-						<p class="d-flex">
-              <strong class="me-2 text-white">Email:</strong>
-							<a href="mailto:info@yourgmail.com" class="site-footer-link" data-text="info@yourgmail.com">
-                info@yourgmail.com
-              </a>
-            </p>
-          </div> <!-- col -->
-				  <div class="col-lg-5 col-12">
-            <em class="text-white d-block mb-4">Opening Hours.</em>
-						  <ul class="opening-hours-list">
-                <li class="d-flex">
-                  Monday - Friday
-                  <span class="underline"></span>
-									<strong>9:00 - 18:00</strong>
-                </li>
-								<li class="d-flex">
-                  Saturdays
-                  <span class="underline"></span>
-									<strong>11:00 - 16:30</strong>
-                </li>
-								<li class="d-flex">
-                  Sunday
-                  <span class="underline"></span>
-									<strong>Closed</strong>
-                </li>
-              </ul>
-            </div> <!-- col -->
+        <?php if ( $visible_socials ) : ?>
+        <ul class="social-icon mt-4">
+            <?php foreach ( $visible_socials as $social ) : ?>
+            <li class="social-icon-item">
+                <a href="<?php echo esc_url( $social['url'] ); ?>"
+                   target="_blank"
+                   rel="noopener noreferrer"
+                   class="social-icon-link"
+                   aria-label="<?php echo esc_attr( $social['label'] ); ?>">
+                    <i class="bi <?php echo esc_attr( $social['icon'] ); ?>" aria-hidden="true"></i>
+                </a>
+            </li>
+            <?php endforeach; ?>
+        </ul>
+        <?php endif; ?>
+    </div><!-- .col -->
+
+    <div class="col-lg-3 col-12 mt-4 mb-3 mt-lg-0 mb-lg-0">
+        <em class="text-white d-block mb-4"><?php esc_html_e( 'Contact', 'baristart' ); ?></em>
+
+        <?php if ( $phone ) : ?>
+        <p class="d-flex mb-1">
+            <strong class="me-2 text-white"><?php esc_html_e( 'Phone:', 'baristart' ); ?></strong>
+            <a href="tel:<?php echo esc_attr( $phone ); ?>"
+               class="site-footer-link"
+               data-text="<?php echo esc_attr( $phone_display ); ?>">
+                <?php echo esc_html( $phone_display ); ?>
+            </a>
+        </p>
+        <?php endif; ?>
+
+        <?php if ( $email ) : ?>
+        <p class="d-flex">
+            <strong class="me-2 text-white"><?php esc_html_e( 'Email:', 'baristart' ); ?></strong>
+            <a href="mailto:<?php echo esc_attr( $email ); ?>"
+               class="site-footer-link"
+               data-text="<?php echo esc_attr( $email ); ?>">
+                <?php echo esc_html( $email ); ?>
+            </a>
+        </p>
+        <?php endif; ?>
+    </div><!-- .col -->
+
+    <div class="col-lg-5 col-12">
+        <em class="text-white d-block mb-4"><?php esc_html_e( 'Opening Hours', 'baristart' ); ?></em>
+        <ul class="opening-hours-list">
+            <?php foreach ( $hours as [ $day, $time ] ) : ?>
+            <li class="d-flex">
+                <?php echo esc_html( $day ); ?>
+                <span class="underline" aria-hidden="true"></span>
+                <strong><?php echo esc_html( $time ); ?></strong>
+            </li>
+            <?php endforeach; ?>
+        </ul>
+    </div><!-- .col -->
