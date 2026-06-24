@@ -13,12 +13,14 @@
 
 	<footer id="colophon" class="site-footer text-bg-basic" aria-labelledby="Site footer">
 			<div class="container">
-				<?php
-				  get_template_part( 'template-parts/menu-info' );
-				?>
-				<?php
-				  get_template_part( 'template-parts/menu-sig' );
-				?>
+				<div class="row">
+					<?php
+						get_template_part( 'template-parts/menu-info' );
+					?>
+					<?php
+						get_template_part( 'template-parts/menu-sig' );
+					?>
+				</div>
 			</div><!-- .container -->
 
 	</footer><!-- #colophon -->
