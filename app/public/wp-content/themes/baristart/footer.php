@@ -11,7 +11,7 @@
 
 ?>
 
-	<footer id="colophon" class="site-footer text-bg-basic">
+	<footer id="colophon" class="site-footer text-bg-basic" role="contentinfo" aria-labelledby="footer-title">
 		<div class="site-info">
 			<div class="container">
 				<div class="row">
@@ -76,13 +76,10 @@
                 </li>
               </ul>
             </div> <!-- col -->
-						<div class="col-lg-8 col-12 mt-4 copyright-text">
-							<?php
-							/* translators: 1: Theme name, 2: Theme author. */
-							printf( esc_html__( 'Developed by: %1$s.', 'baristart' ), '<a href="https://lambroshatzinikolaou.com">Lambros Hatzinikolaou</a>' );
-							?>
-              <p class="copyright-text mb-0">Copyright © Baristart 2026. All rights reserved.</p>
-            </div>
+						<?php
+						  get_template_part( 'template-parts/menu-sig' );
+						?>
+
 					</div><!-- col -->
 				</div><!-- .row -->
 			</div><!-- .container -->
