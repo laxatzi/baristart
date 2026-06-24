@@ -12,10 +12,10 @@ $socials = [
         'icon'  => 'bi-facebook',
         'label' => __( 'Facebook', 'baristart' ),
     ],
-    'twitter'  => [
-        'url'   => get_theme_mod( 'footer_twitter_url' ),
-        'icon'  => 'bi-twitter-x',
-        'label' => __( 'X / Twitter', 'baristart' ),
+    'instagram'  => [
+        'url'   => get_theme_mod( 'footer_instagram_url' ),
+        'icon'  => 'bi-instagram',
+        'label' => __( 'Instagram', 'baristart' ),
     ],
     'whatsapp' => [
         'url'   => get_theme_mod( 'footer_whatsapp_url' ),
