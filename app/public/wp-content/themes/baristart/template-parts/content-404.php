@@ -28,22 +28,6 @@
       </button>
     </div>
     <div>
-
-    </div>
-    	<?php the_widget( 'WP_Widget_Recent_Posts' ); ?>
-    <div>
-      <!-- Archives and Tag Cloud -->
-      <div class="archives-and-tags mt-5">
-        <!-- <h2 class="widget-title mb-4"><?php esc_html_e( 'Try looking in the archives.', 'baristart' ); ?></h2> -->
-					<?php
-					/* translators: %1$s: smiley */
-					$baristart_archive_content = '<p>' . sprintf( esc_html__( 'Try looking in the monthly archives. %1$s', 'baristart' ), convert_smilies( ':)' ) ) . '</p>';
-					the_widget( 'WP_Widget_Archives', 'dropdown=1', "after_title=</h2>$baristart_archive_content" );
-
-					the_widget( 'WP_Widget_Tag_Cloud' );
-					?>
-
-    </div>
       <!-- Search form -->
 
 
