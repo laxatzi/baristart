@@ -241,7 +241,7 @@ if ( defined( 'JETPACK__VERSION' ) ) {
 /**
  * Register Footer Customizer Settings
  */
-function baristart_customize_register( WP_Customize_Manager $wp_customize ): void {
+function lambros_customize_register( WP_Customize_Manager $wp_customize ): void {
 
     // ── Panel ──────────────────────────────────────────────────────────────
     $wp_customize->add_panel( 'footer_panel', [
@@ -354,5 +354,5 @@ function baristart_customize_register( WP_Customize_Manager $wp_customize ): voi
         'type'        => 'text',
     ] );
 }
-add_action( 'customize_register', 'baristart_customize_register' );
+add_action( 'customize_register', 'lambros_customize_register' );
 
