@@ -2,7 +2,7 @@
 					<div class="col-lg-4 col-12 me-auto">
 					  <em class="text-white d-block mb-4">Where to find us?</em>
 						<strong class="text-white">
-              <i class="bi-geo-alt me-2"></i>
+              <i class="bi bi-geo-alt me-2"></i>
               Mikras Asias 89,Pefka, Thessaloniki, Greece
             </strong>
 						<ul class="social-icon mt-4">
@@ -29,7 +29,7 @@
             <em class="text-white d-block mb-4">Contact</em>
 						<p class="d-flex mb-1">
               <strong class="me-2 text-white">Phone:</strong>
-              <a href="tel: 305-240-9671" class="site-footer-link" data-text="(65) 305 2409 671">
+              <a href="tel:+305-240-9671" class="site-footer-link" data-text="(65) 305 2409 671">
                 (65) 305 2409 671
               </a>
             </p>
