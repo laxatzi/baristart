@@ -1,4 +1,25 @@
 <?php
+/**
+ * Security check to prevent direct access to the theme functions file.
+ *
+ * This code verifies that WordPress has been properly loaded by checking
+ * if the ABSPATH constant is defined. If the file is accessed directly
+ * without going through WordPress, it terminates execution and returns
+ * a 403 Forbidden HTTP status code with a plain text error message.
+ *
+ * @return void Exits execution if direct access is detected.
+ */
+if ( ! defined( 'ABSPATH' ) ) {
+    http_response_code( 403 );
+     header( 'Content-Type: text/plain; charset=utf-8' );
+    exit( 'Forbidden: direct access is not allowed.' );
+}
+
+// CONSTANTS
+define( 'LAMBROS_THEME_AUTHOR', 'Lambros Hatzinikolaou' );
+define( 'LAMBROS_DATE_FORMAT', 'F j, Y' );
+define( 'LAMBROS_THEME_VERSION', wp_get_theme()->get( 'Version' ) );
+
 /*
  * Baristart functions and definitions
  *
