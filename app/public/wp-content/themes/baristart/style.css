@@ -1625,6 +1625,7 @@ h1.error-404-title {
   font-size: 256px;
   font-weight: 700;
   color: var(--bs-highlight-bg-light);
+  margin-top: 10vh;
 }
 
 .btn .search-link {
