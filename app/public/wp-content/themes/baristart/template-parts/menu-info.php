@@ -1,5 +1,38 @@
 
-					<div class="col-lg-4 col-12 me-auto">
+<?php
+// ── Fetch all values once at the top ──────────────────────────────────────
+$address       = get_theme_mod( 'footer_address' );
+$phone         = get_theme_mod( 'footer_phone' );
+$phone_display = get_theme_mod( 'footer_phone_display', $phone ); // fallback to raw phone
+$email         = get_theme_mod( 'footer_email' );
+
+$socials = [
+    'facebook' => [
+        'url'   => get_theme_mod( 'footer_facebook_url' ),
+        'icon'  => 'bi-facebook',
+        'label' => __( 'Facebook', 'baristart' ),
+    ],
+    'twitter'  => [
+        'url'   => get_theme_mod( 'footer_twitter_url' ),
+        'icon'  => 'bi-twitter-x',
+        'label' => __( 'X / Twitter', 'baristart' ),
+    ],
+    'whatsapp' => [
+        'url'   => get_theme_mod( 'footer_whatsapp_url' ),
+        'icon'  => 'bi-whatsapp',
+        'label' => __( 'WhatsApp', 'baristart' ),
+    ],
+];
+
+$hours = [
+    [ get_theme_mod( 'footer_hours_weekdays_label', 'Monday – Friday' ), get_theme_mod( 'footer_hours_weekdays_time', '9:00 – 18:00'  ) ],
+    [ get_theme_mod( 'footer_hours_saturday_label', 'Saturdays' ),       get_theme_mod( 'footer_hours_saturday_time', '11:00 – 16:30' ) ],
+    [ get_theme_mod( 'footer_hours_sunday_label',   'Sunday' ),          get_theme_mod( 'footer_hours_sunday_time',   'Closed'        ) ],
+];
+
+$visible_socials = array_filter( $socials, fn( $s ) => ! empty( $s['url'] ) );
+?>
+          <div class="col-lg-4 col-12 me-auto">
 					  <em class="text-white d-block mb-4">Where to find us?</em>
 						<strong class="text-white">
               <i class="bi bi-geo-alt me-2"></i>
