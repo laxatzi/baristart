@@ -35,8 +35,8 @@
             </p>
 						<p class="d-flex">
               <strong class="me-2 text-white">Email:</strong>
-							<a href="mailto:info@yourgmail.com" class="site-footer-link" data-text="hello@barista.co">
-                hello@barista.co
+							<a href="mailto:info@yourgmail.com" class="site-footer-link" data-text="info@yourgmail.com">
+                info@yourgmail.com
               </a>
             </p>
           </div> <!-- col -->
