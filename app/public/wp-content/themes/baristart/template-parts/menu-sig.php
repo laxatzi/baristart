@@ -1,3 +1,7 @@
+<?php
+  $business_name = get_theme_mod( 'footer_business_name', get_bloginfo( 'name' ) );
+  $current_year  = date_i18n( 'Y' ); // date_i18n respects WP timezone settings
+?>
 <div class="col-lg-8 col-12 mt-4 copyright-text">
 	<?php
     /**
