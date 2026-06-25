@@ -13,7 +13,7 @@
        */
       printf(
         esc_html__( 'Developed by %1$s © 2024 - %2$s. All rights reserved.', 'LambrosPersonalTheme' ),
-        '<span class="sig__span">' . esc_html( LAMBROS_THEME_AUTHOR ) . '</span>',
+        '<span class="sig__span">' . esc_html( BARISTART_THEME_AUTHOR ) . '</span>',
         esc_html( wp_date( 'Y' ) )
       );
   ?>

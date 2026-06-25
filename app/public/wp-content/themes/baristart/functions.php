@@ -17,7 +17,6 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 // CONSTANTS
 define( 'BARISTART_THEME_AUTHOR', 'Lambros Hatzinikolaou' );
-define( 'BARISTART_DATE_FORMAT', 'F j, Y' );
 define( 'BARISTART_THEME_VERSION', wp_get_theme()->get( 'Version' ) );
 
 /*
