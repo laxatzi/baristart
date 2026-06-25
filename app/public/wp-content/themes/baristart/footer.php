@@ -11,7 +11,7 @@
 
 ?>
 
-	<footer id="colophon" class="site-footer text-bg-basic" aria-labelledby="Site footer">
+	<footer id="colophon" class="site-footer text-bg-basic" aria-label="<?php esc_attr_e( 'Site footer', 'baristart' ); ?>">
 			<div class="container">
 				<div class="row">
 					<?php
