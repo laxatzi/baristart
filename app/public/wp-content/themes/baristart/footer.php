@@ -17,6 +17,8 @@
 					<?php
 						get_template_part( 'template-parts/menu-info' );
 					?>
+				</div>
+				<div class="row">
 					<?php
 						get_template_part( 'template-parts/menu-sig' );
 					?>
