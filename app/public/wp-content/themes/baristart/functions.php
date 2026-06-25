@@ -16,9 +16,9 @@ if ( ! defined( 'ABSPATH' ) ) {
 }
 
 // CONSTANTS
-define( 'LAMBROS_THEME_AUTHOR', 'Lambros Hatzinikolaou' );
-define( 'LAMBROS_DATE_FORMAT', 'F j, Y' );
-define( 'LAMBROS_THEME_VERSION', wp_get_theme()->get( 'Version' ) );
+define( 'BARISTART_THEME_AUTHOR', 'Lambros Hatzinikolaou' );
+define( 'BARISTART_DATE_FORMAT', 'F j, Y' );
+define( 'BARISTART_THEME_VERSION', wp_get_theme()->get( 'Version' ) );
 
 /*
  * Baristart functions and definitions
@@ -228,7 +228,7 @@ if ( defined( 'JETPACK__VERSION' ) ) {
 /**
  * Register Footer Customizer Settings
  */
-function lambros_customize_register( WP_Customize_Manager $wp_customize ): void {
+function barisart_cafe_customize_register( WP_Customize_Manager $wp_customize ): void {
 
     // ── Panel ──────────────────────────────────────────────────────────────
     $wp_customize->add_panel( 'footer_panel', [
@@ -341,5 +341,5 @@ function lambros_customize_register( WP_Customize_Manager $wp_customize ): void 
         'type'        => 'text',
     ] );
 }
-add_action( 'customize_register', 'lambros_customize_register' );
+add_action( 'customize_register', 'baristart_cafe_customize_register' );
 
