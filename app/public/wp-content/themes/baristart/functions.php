@@ -28,9 +28,9 @@ define( 'LAMBROS_THEME_VERSION', wp_get_theme()->get( 'Version' ) );
  * @package Baristart
  */
 
-if ( ! defined( '_S_VERSION' ) ) {
+if ( ! defined( 'BARISTART_THEME_VERSION' ) ) {
 	// Replace the version number of the theme on each release.
-	define( '_S_VERSION', '1.0.0' );
+	define( 'BARISTART_THEME_VERSION', wp_get_theme()->get( 'Version' ) );
 }
 
 /*
