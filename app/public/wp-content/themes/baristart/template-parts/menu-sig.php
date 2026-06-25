@@ -11,10 +11,16 @@
        *
        * @return void Echoes the copyright text directly to output.
        */
+
+
+    // ✅ Store founding year as a constant
+      define( 'BARISTART_THEME_FOUNDED', '2024' );
+
       printf(
-        esc_html__( 'Developed by %1$s © 2024 - %2$s. All rights reserved.', 'LambrosPersonalTheme' ),
-        '<span class="sig__span">' . esc_html( BARISTART_THEME_AUTHOR ) . '</span>',
-        esc_html( wp_date( 'Y' ) )
+          esc_html__( 'Developed by %1$s © %2$s – %3$s. All rights reserved.', 'baristart' ),
+          '<span class="sig__span">' . esc_html( BARISTART_THEME_AUTHOR ) . '</span>',
+          esc_html( BARISTART_THEME_FOUNDED ),
+          esc_html( wp_date( 'Y' ) )
       );
   ?>
 </div>
