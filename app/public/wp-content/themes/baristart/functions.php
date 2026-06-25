@@ -174,20 +174,14 @@ function baristart_scripts() {
 	);
 
 	wp_enqueue_style(
-		'baristart-style',
-		get_stylesheet_uri(),
-		array( 'baristart-bootstrap' ),
-		_S_VERSION
+			'baristart-style',
+			get_stylesheet_uri(),
+			array( 'baristart-bootstrap', 'baristart-bootstrap-icons' ),
 	);
 
-	wp_enqueue_style(
-    'google-fonts',
-    'https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&family=JetBrains+Mono&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap',
-      [],
-      null
-    );
-
 	wp_style_add_data( 'baristart-style', 'rtl', 'replace' );
+
+
 
 	wp_enqueue_script(
 		'baristart-bootstrap',
@@ -195,13 +189,6 @@ function baristart_scripts() {
 		array(),
 		'5.3.3',
 		true
-	);
-
-	wp_enqueue_style(
-		'baristart-style',
-		get_stylesheet_uri(),
-		array( 'baristart-bootstrap', 'baristart-bootstrap-icons' ),
-		_S_VERSION
 	);
 
 
