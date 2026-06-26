@@ -11,7 +11,7 @@ Requires PHP: 8.0
 License: GNU General Public License v2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: baristart
-Tags: coffee, latte, white-coffee, tea, hot-cocoa, americano
+Tags: coffee, latte, white-coffee, tea, hot-cocoa, americano, cozy feeling
 
 This theme, like WordPress, is licensed under the GPL.
 Use it to make something cool, have fun, and share what you've learned.
@@ -1545,7 +1545,7 @@ textarea.form-control {
 .site-footer {
   background-color: var(--bs-basic-color);
   padding-top: 100px;
-  padding-bottom: 100px;
+  padding-bottom: 50px;
 }
 
 .site-footer-link {
